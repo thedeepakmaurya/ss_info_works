@@ -1,23 +1,23 @@
 @import "tailwindcss";
 
-@layer utilities{
-    footer h3{
-        @apply text-lg mb-3 capitalize
-    }
+@layer utilities {
+  footer h3 {
+    @apply mb-3 text-lg capitalize;
+  }
 
-    footer ul{
-        @apply flex flex-col gap-2 capitalize  
-    }
+  footer ul {
+    @apply flex flex-col gap-2 text-base capitalize;
+  }
 
-    footer li:hover{
-        @apply text-orange-400
-    }
+  footer li:hover {
+    @apply text-orange-400;
+  }
 
-    footer i:hover{
-        @apply text-orange-400
-    }
+  footer i:hover {
+    @apply text-orange-400;
+  }
 
-    footer h5{
-        @apply mb-1 text-sm
-    }
+  footer h5 {
+    @apply mb-1 text-sm;
+  }
 }

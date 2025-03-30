@@ -7,7 +7,7 @@ export default function Footer() {
 
   return (
     <footer className="w-full">
-      <div className="h-auto w-full bg-blue-950 px-2 text-white lg:px-20">
+      <div className="h-auto w-full bg-blue-950 px-2.5 text-white lg:px-20">
         <div className="grid gap-6 py-10 lg:grid-cols-4 lg:gap-0">
           <div>
             <h3>Contact Info</h3>
@@ -30,13 +30,9 @@ export default function Footer() {
               </li>
             </ul>
             <h5>Mail ID</h5>
-            <ul className="mb-4">
-              <li>
                 <Link href="mailto:support@ssinfoworks.com">
-                  support@ssinfoworks.com
+                 support@ssinfoworks.com
                 </Link>
-              </li>
-            </ul>
           </div>
           {usefullinks.map((item, index) => (
             <div key={index}>

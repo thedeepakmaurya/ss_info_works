@@ -30,8 +30,8 @@ export default function Header() {
   };
 
   return (
-    <header className="w-full bg-white">
-      <div className="sticky top-0 flex h-20 items-center justify-between border-b border-gray-100 px-2 lg:px-20">
+    <header className="sticky top-0 w-full bg-white">
+      <div className="flex h-20 items-center justify-between border-b border-gray-100 px-3 lg:px-20">
         <Image
           className="h-16 w-auto"
           src="/img/logo.png"
