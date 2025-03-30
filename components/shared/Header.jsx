@@ -30,7 +30,7 @@ export default function Header() {
   };
 
   return (
-    <header className="sticky top-0 w-full bg-white">
+    <header className="sticky top-0 w-full bg-white z-50 ">
       <div className="flex h-20 items-center justify-between border-b border-gray-100 px-3 lg:px-20">
         <Image
           className="h-16 w-auto"
@@ -52,7 +52,7 @@ export default function Header() {
         </div>
       </div>
       <nav
-        className={`fixed inset-y-0 top-20 w-full transform bg-white px-2 py-4 transition-transform delay-300 lg:hidden ${isMenuOpen ? "translate-x-0" : "translate-x-full"}`}
+        className={`fixed inset-y-0 top-20 w-full transform bg-white px-2 py-4 transition-transform lg:hidden ${isMenuOpen ? "translate-x-0" : "translate-x-full"}`}
       >
         {fetchMenu()}
       </nav>
