@@ -1,14 +1,13 @@
 import MainLayout from "@/components/layout/MainLayout";
 import "./globals.css";
 import "remixicon/fonts/remixicon.css";
-import { Comfortaa } from "next/font/google";
+import { Urbanist } from 'next/font/google'
 
-const comfortaa = Comfortaa({
-  subsets: ["latin"],
-  weight: ["400", "600", "700"], // Adjust as needed
-  variable: "--font-comfortaa",
-  display: "swap",
-});
+const urbanist = Urbanist({
+  subsets: ['latin'],
+  variable: '--font-urbanist',
+  display: 'swap',
+})
 
 export const metadata = {
   title: "SS Infoworks Technology",
@@ -19,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={comfortaa.variable}>
+      <body className={urbanist.className}>
         <MainLayout>{children}</MainLayout>
       </body>
     </html>

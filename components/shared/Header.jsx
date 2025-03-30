@@ -1,53 +1,61 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import data from "../../public/db/data.json";
+import { usePathname } from "next/navigation";
+import { useState } from "react";
 
 export default function Header() {
+  const { navigation } = data;
+  const path = usePathname();
+
+  const [isMenuOpen, setIsMenuOpen] = useState(true);
+
+  const fetchMenu = () => {
+    return (
+      <ul className="flex flex-col gap-3 lg:flex-row lg:gap-6">
+        {navigation.map((item, index) => {
+          const isActive = path === item.route;
+          return (
+            <li
+              key={index}
+              className={`capitalize hover:border-b hover:border-blue-400 ${isActive && "border-b border-orange-400"}`}
+            >
+              <Link href={item.route}>{item.label}</Link>
+            </li>
+          );
+        })}
+      </ul>
+    );
+  };
+
   return (
-    <header className="lg:p-4 p-3 border-b border-gray-200 sticky top-0">
-      <div className="flex justify-between items-center lg:mx-28 ">
-        {/* logo */}
+    <header className="sticky top-0 h-20 w-full bg-white">
+      <div className="flex h-full items-center justify-between border-b border-gray-100 px-2 lg:px-20">
         <Image
-          className="h-18 w-auto"
+          className="h-16 w-auto"
           src="/img/logo.png"
           alt="logo"
-          width={1000}
-          height={1000}
+          width={100}
+          height={100}
         />
-        {/* navigation */}
-        <nav className="text-gray-800 hidden lg:block">
-          <ul className="flex space-x-6 ">
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="/about">About Us</Link>
-            </li>
-            <li>
-              <Link href="/service">Service</Link>
-            </li>
-            <li>
-              <Link href="/portfolio">Portfolio</Link>
-            </li>
-            <li>
-              <Link href="/blog">Blog</Link>
-            </li>
-            <li>
-              <Link href="/price">Price</Link>
-            </li>
-            <li>
-              <Link href="/contact">Contact</Link>
-            </li>
-          </ul>
-        </nav>
+        <nav className="hidden text-gray-700 lg:block">{fetchMenu()}</nav>
         <div className="flex items-center gap-3">
           {/* start button*/}
-          <button className="bg-gradient-to-r from-orange-400 to-blue-400 hover:scale-95 transition-all ease-in-out cursor-pointer px-4 py-2 rounded-full text-white">
+          <button className="cursor-pointer rounded-sm bg-gradient-to-r from-orange-400 to-blue-400 to-50% px-4 py-1.5 text-white transition-all duration-300 ease-in-out hover:scale-105">
             Start a project
           </button>
-          {/* hamburger menu */}
-          <i className="ri-menu-3-line ri-xl lg:hidden"></i>
+          <i
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className={`ri-xl text-gray-700 lg:hidden ${isMenuOpen ? "ri-menu-3-line" : "ri-close-large-line"}`}
+          ></i>
         </div>
       </div>
+      <nav
+        className={`fixed inset-y-0 top-20 w-full transform bg-white px-2 py-4 transition-transform delay-300 lg:hidden ${isMenuOpen ? "translate-x-0" : "translate-x-full"}`}
+      >
+        {fetchMenu()}
+      </nav>
     </header>
   );
 }

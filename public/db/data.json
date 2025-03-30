@@ -1,0 +1,76 @@
+{
+  "navigation": [
+    {
+      "label": "home",
+      "route": "/"
+    },
+    {
+      "label": "about us",
+      "route": "/about"
+    },
+    {
+      "label": "services",
+      "route": "/services"
+    },
+    {
+      "label": "portfolio",
+      "route": "/portfolio"
+    },
+    {
+      "label": "pricing",
+      "route": "/pricing"
+    },
+    {
+      "label": "contact",
+      "route": "/contact"
+    }
+  ],
+  "usefullinks": [
+    {
+      "label": "information",
+      "links": [
+        {
+          "label": "about company",
+          "route": "/about"
+        },
+        {
+          "label": "portfolio",
+          "route": "/portfolio"
+        },
+        {
+          "label": "privacy policy",
+          "route": "/privacy-policy"
+        },
+        {
+          "label": "terms of service",
+          "route": "/terms-of-service"
+        },
+        {
+          "label": "refund policy",
+          "route": "/refund-policy"
+        }
+      ]
+    },
+    {
+      "label": "our services",
+      "links": [
+        {
+          "label": "web development / design",
+          "route": "/web-development"
+        },
+        {
+          "label": "android & ios development",
+          "route": "/mobile-app-development"
+        },
+        {
+          "label": "digital marketing",
+          "route": "/digital-marketing"
+        },
+        {
+          "label": "seo/smo marketing",
+          "route": "/seo-smo-marketing"
+        }
+      ]
+    }
+  ]
+}
