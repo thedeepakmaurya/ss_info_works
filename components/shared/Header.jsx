@@ -19,7 +19,7 @@ export default function Header() {
           return (
             <li
               key={index}
-              onclick={() => setIsMenuOpen(false)}
+              onClick={() => setIsMenuOpen(false)}
               className={`capitalize hover:border-b hover:border-blue-400 ${isActive && "border-b border-orange-400"}`}
             >
               <Link href={item.route}>{item.label}</Link>
