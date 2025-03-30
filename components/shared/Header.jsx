@@ -47,7 +47,7 @@ export default function Header() {
           </button>
           <i
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className={`ri-xl text-gray-700 lg:hidden ${isMenuOpen ? "ri-menu-3-line" : "ri-close-large-line"}`}
+            className={`ri-xl text-gray-700 lg:hidden ${isMenuOpen ? "ri-close-large-line" : "ri-menu-3-line"}`}
           ></i>
         </div>
       </div>
