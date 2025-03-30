@@ -9,7 +9,7 @@ export default function Header() {
   const { navigation } = data;
   const path = usePathname();
 
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const fetchMenu = () => {
     return (
@@ -30,8 +30,8 @@ export default function Header() {
   };
 
   return (
-    <header className="sticky top-0 h-20 w-full bg-white">
-      <div className="flex h-full items-center justify-between border-b border-gray-100 px-2 lg:px-20">
+    <header className="w-full bg-white">
+      <div className="sticky top-0 flex h-20 items-center justify-between border-b border-gray-100 px-2 lg:px-20">
         <Image
           className="h-16 w-auto"
           src="/img/logo.png"
