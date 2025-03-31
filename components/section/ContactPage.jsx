@@ -4,7 +4,7 @@ export default function ContactPage() {
   return (
     <section className="px-3 lg:px-20">
       <div className="grid gap-6 lg:grid-cols-3">
-        <div className="space-y-4 rounded-sm bg-gradient-to-r from-orange-400 to-blue-400 to-50% p-6 text-white">
+        <div className="space-y-4 rounded-sm  p-6 bg-orange-50 border border-orange-200">
           <h3 className="text-lg font-medium">Get in Touch</h3>
           <div>
             <h5 className="font-medium">Visit us</h5>
@@ -39,7 +39,7 @@ export default function ContactPage() {
                 Name
               </label>
               <input
-                className="w-full rounded-sm border border-gray-200 p-2 text-sm text-gray-600 focus:border-0 focus:outline-1 focus:outline-orange-400"
+                className="w-full rounded-sm border border-gray-200 p-2 text-sm text-gray-600 focus:border-0 focus:outline-1 focus:outline-orange-200"
                 type="text"
                 id="name"
                 name="name"
@@ -54,7 +54,7 @@ export default function ContactPage() {
                 Email
               </label>
               <input
-                className="w-full rounded-sm border border-gray-200 p-2 text-sm text-gray-600 focus:border-0 focus:outline-1 focus:outline-orange-400"
+                className="w-full rounded-sm border border-gray-200 p-2 text-sm text-gray-600 focus:border-0 focus:outline-1 focus:outline-orange-200"
                 type="email"
                 id="email"
                 name="email"
@@ -69,7 +69,7 @@ export default function ContactPage() {
                 Phone
               </label>
               <input
-                className="w-full rounded-sm border border-gray-200 p-2 text-sm text-gray-600 focus:border-0 focus:outline-1 focus:outline-orange-400"
+                className="w-full rounded-sm border border-gray-200 p-2 text-sm text-gray-600 focus:border-0 focus:outline-1 focus:outline-orange-200"
                 type="number"
                 id="phone"
                 name="phone"
@@ -84,7 +84,7 @@ export default function ContactPage() {
                 Service
               </label>
               <select
-                className="w-full appearance-none rounded-sm border border-gray-200 p-2 text-sm text-gray-600 focus:border-0 focus:outline-1 focus:outline-orange-400"
+                className="w-full appearance-none rounded-sm border border-gray-200 p-2 text-sm text-gray-600 focus:border-0 focus:outline-1 focus:outline-orange-200"
                 name="service"
                 id="service"
               >
@@ -105,7 +105,7 @@ export default function ContactPage() {
                 Message
               </label>
               <textarea
-                className="h-24 w-full rounded-sm border border-gray-200 p-2 text-sm text-gray-600 focus:border-0 focus:outline-1 focus:outline-orange-400"
+                className="h-24 w-full rounded-sm border border-gray-200 p-2 text-sm text-gray-600 focus:border-0 focus:outline-1 focus:outline-orange-200"
                 id="message"
                 name="message"
                 required

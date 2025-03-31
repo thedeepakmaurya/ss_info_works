@@ -72,5 +72,59 @@
         }
       ]
     }
+  ],
+  "pricing": [
+    {
+      "title": "BASIC WEBSITE",
+      "description": "A simple, static website to showcase your business, services, orportfolio — fast, clean, and mobile-friendly.",
+      "price": "8500",
+      "features": [
+        "Up to 5 responsive pages (Home, About, Services, Contact, etc.)",
+        "Clean, modern design tailored to your brand",
+        "Mobile-friendly and fast loading",
+        "Basic contact form integration",
+        "SEO-ready structure",
+        "Social media links"
+      ]
+    },
+    {
+      "title": "ADVANCED WEBSITE",
+      "description": "A simple, static website to showcase your business, services, orportfolio — fast, clean, and mobile-friendly.",
+      "price": "16,800",
+      "features": [
+        "Up to 5 responsive pages (Home, About, Services, Contact, etc.)",
+        "Clean, modern design tailored to your brand",
+        "Mobile-friendly and fast loading",
+        "Basic contact form integration",
+        "SEO-ready structure",
+        "Social media links"
+      ]
+    },
+    {
+      "title": "ECOMMERCE WEBSITE",
+      "description": "A simple, static website to showcase your business, services, orportfolio — fast, clean, and mobile-friendly.",
+      "price": "19,500",
+      "features": [
+        "Up to 5 responsive pages (Home, About, Services, Contact, etc.)",
+        "Clean, modern design tailored to your brand",
+        "Mobile-friendly and fast loading",
+        "Basic contact form integration",
+        "SEO-ready structure",
+        "Social media links"
+      ]
+    },
+    {
+      "title": "ANDROID APPLICATION",
+      "description": "A simple, static website to showcase your business, services, orportfolio — fast, clean, and mobile-friendly.",
+      "price": "15,500",
+      "features": [
+        "Up to 5 responsive pages (Home, About, Services, Contact, etc.)",
+        "Clean, modern design tailored to your brand",
+        "Mobile-friendly and fast loading",
+        "Basic contact form integration",
+        "SEO-ready structure",
+        "Social media links"
+      ]
+    }
   ]
 }
