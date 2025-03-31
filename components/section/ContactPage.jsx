@@ -4,7 +4,7 @@ export default function ContactPage() {
   return (
     <section className="px-3 lg:px-20">
       <div className="grid gap-6 lg:grid-cols-3">
-        <div className="space-y-4 rounded-sm  p-6 bg-orange-50 border border-orange-200">
+        <div className="space-y-4 rounded-sm border border-orange-200 bg-orange-50 p-6">
           <h3 className="text-lg font-medium">Get in Touch</h3>
           <div>
             <h5 className="font-medium">Visit us</h5>
@@ -92,7 +92,9 @@ export default function ContactPage() {
                   Select
                 </option>
                 <option value="webdevelopment">Web Development / Design</option>
-                <option value="appdevelopment">Android & IOS Application</option>
+                <option value="appdevelopment">
+                  Android & IOS Application
+                </option>
                 <option value="seo">SEO / SMO Marketing</option>
                 <option value="marketing">Digital Marketing</option>
               </select>

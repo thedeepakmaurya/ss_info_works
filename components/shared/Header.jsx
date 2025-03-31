@@ -4,6 +4,7 @@ import Link from "next/link";
 import data from "../../public/db/data.json";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import Button from "../ui/Button";
 
 export default function Header() {
   const { navigation } = data;
@@ -31,7 +32,7 @@ export default function Header() {
   };
 
   return (
-    <header className="sticky top-0 w-full bg-white z-50 ">
+    <header className="sticky top-0 z-50 w-full bg-white">
       <div className="flex h-20 items-center justify-between border-b border-gray-100 px-3 lg:px-20">
         <Image
           className="h-16 w-auto"
@@ -43,9 +44,7 @@ export default function Header() {
         <nav className="hidden text-gray-700 lg:block">{fetchMenu()}</nav>
         <div className="flex items-center gap-3">
           {/* start button*/}
-          <button className="cursor-pointer rounded-sm bg-gradient-to-r from-orange-400 to-blue-400 to-50% px-4 py-1.5 text-white transition-all duration-300 ease-in-out hover:scale-105">
-            Start a project
-          </button>
+          <Button text="Start a project" url="/contact" style="" />
           <i
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className={`ri-xl text-gray-700 lg:hidden ${isMenuOpen ? "ri-close-large-line" : "ri-menu-3-line"}`}

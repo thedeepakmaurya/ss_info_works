@@ -1,5 +1,6 @@
 import Link from "next/link";
 import data from "../../public/db/data.json";
+import Button from "../ui/Button";
 
 export default function PricePage() {
   const { pricing } = data;
@@ -29,11 +30,7 @@ export default function PricePage() {
                   );
                 })}
               </ul>
-              <Link href="/contact">
-                <button className="w-full cursor-pointer rounded-sm bg-gradient-to-r from-orange-400 to-blue-400 to-50% px-4 py-1.5 text-white transition-all duration-300 ease-in-out hover:scale-105">
-                  Get Started
-                </button>
-              </Link>
+              <Button text="Get Started" url="/contact" style="w-full" />
             </div>
           </div>
         );
