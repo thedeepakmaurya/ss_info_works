@@ -3,33 +3,33 @@ import Image from "next/image";
 import Link from "next/link";
 import data from "../../public/db/data.json";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import Button from "../ui/Button";
 
 export default function Header() {
   const { navigation } = data;
   const path = usePathname();
-
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const fetchMenu = () => {
-    return (
-      <ul className="flex flex-col gap-3 lg:flex-row lg:gap-6">
-        {navigation.map((item, index) => {
-          const isActive = path === item.route;
-          return (
-            <li
-              key={index}
-              onClick={() => setIsMenuOpen(false)}
-              className={`capitalize hover:border-b hover:border-blue-400 ${isActive && "border-b border-orange-400"}`}
+  const menuItems = useMemo(
+    () =>
+      navigation.map((item, index) => {
+        const isActive = path === item.route;
+        return (
+          <li key={index} onClick={() => setIsMenuOpen(false)}>
+            <Link
+              href={item.route}
+              className={`capitalize hover:border-b hover:border-blue-400 ${
+                isActive ? "border-b border-orange-400 " : ""
+              }`}
             >
-              <Link href={item.route}>{item.label}</Link>
-            </li>
-          );
-        })}
-      </ul>
-    );
-  };
+              {item.label}
+            </Link>
+          </li>
+        );
+      }),
+    [navigation, path],
+  );
 
   return (
     <header className="sticky top-0 z-50 w-full bg-white">
@@ -40,21 +40,34 @@ export default function Header() {
           alt="logo"
           width={100}
           height={100}
+          priority
         />
-        <nav className="hidden text-gray-700 lg:block">{fetchMenu()}</nav>
+        <nav className="hidden text-gray-700 lg:block">
+          <ul className="flex flex-col gap-3 lg:flex-row lg:gap-6">
+            {menuItems}
+          </ul>
+        </nav>
         <div className="flex items-center gap-3">
-          {/* start button*/}
           <Button text="Start a project" url="/contact" style="" />
-          <i
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className={`ri-xl text-gray-700 lg:hidden ${isMenuOpen ? "ri-close-large-line" : "ri-menu-3-line"}`}
-          ></i>
+          <button
+            onClick={() => setIsMenuOpen((prev) => !prev)}
+            aria-expanded={isMenuOpen}
+            className="lg:hidden"
+          >
+            <i
+              className={`ri-xl text-gray-700 ${
+                isMenuOpen ? "ri-close-large-line" : "ri-menu-3-line"
+              }`}
+            ></i>
+          </button>
         </div>
       </div>
       <nav
-        className={`fixed inset-y-0 top-20 w-full transform bg-white px-2 py-4 transition-transform lg:hidden ${isMenuOpen ? "translate-x-0" : "translate-x-full"}`}
+        className={`fixed inset-y-0 top-20 w-full transform bg-white px-2 py-4 transition-transform lg:hidden ${
+          isMenuOpen ? "translate-x-0" : "translate-x-full"
+        }`}
       >
-        {fetchMenu()}
+        <ul className="flex flex-col gap-3">{menuItems}</ul>
       </nav>
     </header>
   );

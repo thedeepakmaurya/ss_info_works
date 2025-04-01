@@ -1,4 +1,3 @@
-import Link from "next/link";
 import data from "../../public/db/data.json";
 import Button from "../ui/Button";
 
