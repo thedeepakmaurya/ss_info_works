@@ -126,5 +126,63 @@
         "Social media links"
       ]
     }
+  ], 
+  "projects":[
+    {
+      "type": "Web Development",
+      "image": "https://cdn.dribbble.com/userupload/35082206/file/original-77e076295021b00ab15ab1c9161ee645.png",
+      "url": "#"
+    },
+    {
+      "type": "Ecommerce",
+      "image": "https://cdn.dribbble.com/userupload/29997233/file/original-2506c5ad5740a3108ea9b6b85595040e.jpg",
+      "url": "#"
+    },
+    {
+      "type": "Web Design",
+      "image": "https://cdn.dribbble.com/userupload/29611471/file/original-23ecfe2b57768e161a1d3461e73cc3f0.png",
+      "url": "#"
+    },
+    {
+      "type": "Android App",
+      "image": "https://cdn.dribbble.com/userupload/18241745/file/original-e20c280338a7522d363cf8715f83c251.png",
+      "url": "#"
+    },
+    {
+      "type": "IOS App",
+      "image": "https://cdn.dribbble.com/userupload/37113453/file/original-452286f2629021890140e3bb3f5ec91f.jpg",
+      "url": "#"
+    },
+    {
+      "type": "web Design",
+      "image": "https://cdn.dribbble.com/userupload/29611471/file/original-23ecfe2b57768e161a1d3461e73cc3f0.png",
+      "url": "#"
+    },
+    {
+      "type": "Android App",
+      "image": "https://cdn.dribbble.com/userupload/18241745/file/original-e20c280338a7522d363cf8715f83c251.png",
+      "url": "#"
+    },
+    {
+      "type": "IOS App",
+      "image": "https://cdn.dribbble.com/userupload/37113453/file/original-452286f2629021890140e3bb3f5ec91f.jpg",
+      "url": "#"
+    },
+    {
+      "type": "web Design",
+      "image": "https://cdn.dribbble.com/userupload/29611471/file/original-23ecfe2b57768e161a1d3461e73cc3f0.png",
+      "url": "#"
+    },
+    {
+      "type": "Android App",
+      "image": "https://cdn.dribbble.com/userupload/18241745/file/original-e20c280338a7522d363cf8715f83c251.png",
+      "url": "#"
+    },
+    {
+      "type": "IOS App",
+      "image": "https://cdn.dribbble.com/userupload/37113453/file/original-452286f2629021890140e3bb3f5ec91f.jpg",
+      "url": "#"
+    }
+    
   ]
 }

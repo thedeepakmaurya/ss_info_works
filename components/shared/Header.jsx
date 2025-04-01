@@ -20,7 +20,7 @@ export default function Header() {
             <Link
               href={item.route}
               className={`capitalize hover:border-b hover:border-blue-400 ${
-                isActive ? "border-b border-orange-400 " : ""
+                isActive ? "border-b border-orange-400" : ""
               }`}
             >
               {item.label}
