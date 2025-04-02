@@ -22,7 +22,7 @@ export default function PortfolioPage() {
               <div className="flex items-center text-gray-600 justify-between">
                 <span className="font-medium "> {type}
                 </span>
-                <span><Link href={url}><i className="ri-external-link-line ri-lg"></i></Link></span>
+                <span><Link href={url}><i className="ri-send-plane-line ri-lg bg-gradient-to-r from-orange-400 to-blue-400 to-50% bg-clip-text text-transparent"></i></Link></span>
               </div>
             </div>
           );

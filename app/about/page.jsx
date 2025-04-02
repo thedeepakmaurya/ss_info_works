@@ -1,3 +1,5 @@
+import About from "@/components/section/About";
+
 export default function page() {
-  return <div></div>;
+  return <About/>;
 }

@@ -178,8 +178,8 @@
         "Social media links"
       ]
     }
-  ], 
-  "projects":[
+  ],
+  "projects": [
     {
       "type": "Web Development",
       "image": "https://cdn.dribbble.com/userupload/35082206/file/original-77e076295021b00ab15ab1c9161ee645.png",
@@ -235,6 +235,23 @@
       "image": "https://cdn.dribbble.com/userupload/37113453/file/original-452286f2629021890140e3bb3f5ec91f.jpg",
       "url": "#"
     }
-    
+  ],
+  "stat": [
+    {
+      "title": "Years Experience",
+      "value": "3.5+"
+    },
+    {
+      "title": "project completed",
+      "value": "800+"
+    },
+    {
+      "title": "happy clients",
+      "value": "1000+"
+    },
+    {
+      "title": "team members",
+      "value": "50"
+    }
   ]
 }
