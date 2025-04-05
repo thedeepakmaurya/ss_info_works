@@ -21,4 +21,8 @@
     @apply mb-1 text-sm;
   }
 
+  p{
+    @apply text-justify
+  }
+
 }

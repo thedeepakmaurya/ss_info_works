@@ -253,5 +253,31 @@
       "title": "team members",
       "value": "50"
     }
+  ],
+  "team": [
+    {
+      "name": "Deepak Maurya",
+      "position": "Web Developer",
+      "image": "https://images.pexels.com/photos/31431920/pexels-photo-31431920/free-photo-of-professional-headshot-of-smiling-man-with-glasses.jpeg",
+      "linkedin": "#"
+    },
+    {
+      "name": "Deepak Maurya",
+      "position": "Web Developer",
+      "image": "https://images.pexels.com/photos/31431920/pexels-photo-31431920/free-photo-of-professional-headshot-of-smiling-man-with-glasses.jpeg",
+      "linkedin": "#"
+    },
+    {
+      "name": "Deepak Maurya",
+      "position": "Web Developer",
+      "image": "https://images.pexels.com/photos/31431920/pexels-photo-31431920/free-photo-of-professional-headshot-of-smiling-man-with-glasses.jpeg",
+      "linkedin": "#"
+    },
+    {
+      "name": "Deepak Maurya",
+      "position": "Web Developer",
+      "image": "https://images.pexels.com/photos/31431920/pexels-photo-31431920/free-photo-of-professional-headshot-of-smiling-man-with-glasses.jpeg",
+      "linkedin": "#"
+    }
   ]
 }
