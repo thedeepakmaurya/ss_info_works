@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
 @layer utilities {
+
+
   footer h3 {
     @apply mb-3 text-lg capitalize;
   }
