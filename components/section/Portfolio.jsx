@@ -13,7 +13,7 @@ export default function PortfolioPage() {
           return (
             <div key={index}>
               <Image
-                className="mb-2 hover:scale-105 transition-all h-72 lg:h-52 w-full rounded-sm object-cover"
+                className="mb-2 hover:scale-105 transition-all h-72 lg:h-52 w-full rounded-xl object-cover"
                 src={image}
                 alt="street"
                 width={1024}

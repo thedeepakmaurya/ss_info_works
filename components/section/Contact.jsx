@@ -4,7 +4,7 @@ export default function ContactPage() {
   return (
     <section className="px-3 lg:px-20">
       <div className="grid gap-6 lg:grid-cols-3">
-        <div className="space-y-4 rounded-sm border border-orange-200 bg-orange-50 p-6">
+        <div className="space-y-4 rounded-xl border border-orange-200 bg-orange-50 p-6">
           <h3 className="text-lg font-medium">Get in Touch</h3>
           <div>
             <h5 className="font-medium">Visit us</h5>
@@ -123,7 +123,7 @@ export default function ContactPage() {
         </div>
         <div className="min-h-80">
           <iframe
-            className="rounded-sm"
+            className="rounded-xl"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.073833103219!2d77.27591422469585!3d28.627549175667486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce35319b6a7ff%3A0x127dca80423ad527!2sLaxmi%20Nagar%2C%20Block%20S1%2C%20Nanakpura%2C%20Shakarpur%2C%20Delhi%2C%20110092!5e0!3m2!1sen!2sin!4v1743358436032!5m2!1sen!2sin"
             width="100%"
             height="100%"

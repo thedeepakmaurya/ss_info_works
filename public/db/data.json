@@ -279,5 +279,31 @@
       "image": "https://images.pexels.com/photos/31431920/pexels-photo-31431920/free-photo-of-professional-headshot-of-smiling-man-with-glasses.jpeg",
       "linkedin": "#"
     }
+  ],
+  "services": [
+    {
+      "title": "Web Development / Design",
+      "description": "Our customized web design and developing programming generates distinct, technologically advanced websites that feel  as the partners we have the privilege to serve..."
+    },
+    {
+      "title": "Android & IOS Application",
+      "description": "Our mobile development specializes in translating the essence of companies into signature IOS and Android apps elevated by personalized designs, features, and app store optimization..."
+    },
+    {
+      "title": "SEO/SMO & Marketing",
+      "description": "We craft data-backed digital marketing strategies uniquely tailored to elevate brands visibility and cultivate connections through customized SEO, SMO, and targeted ad campaigns..."
+    },
+    {
+      "title": "Digital Marketing",
+      "description": "We boost brands differentiation with digital marketing roadmaps as bespoke as our clients, leveraging analytics to inform campaign tailoring around demographics, behaviors, and preferences of their dream customers."
+    },
+    {
+      "title": "Customize Software Development",
+      "description": "We deliver bespoke software solutions by aligning technical possibilities with precise business objectives through collaboration, analysis, and tailored programming for frictionless interoperability..."
+    },
+    {
+      "title": "MLM Software Development",
+      "description": "We develop unified MLM software ecosystems as specialized as our clients by integrating backend inventory/order tracking with customized consultant office suites, mobile apps and replicable sales funnels"
+    }
   ]
 }

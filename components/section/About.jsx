@@ -25,9 +25,9 @@ export default function About() {
             digital landscape. Partner with us to transform your online journey!
           </p>
         </div>
-        <div className="h-48 rounded-sm">
+        <div className="h-48 rounded-xl">
           <Image
-            className="h-full rounded-sm object-cover"
+            className="h-full rounded-xl object-cover"
             src="https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg"
             alt="about"
             width={1200}
@@ -37,7 +37,7 @@ export default function About() {
         <div className="grid grid-cols-2 gap-4">
           {stat.map(({ title, value }, index) => {
             return (
-              <div key={index} className="rounded-sm bg-orange-50 p-6">
+              <div key={index} className="rounded-xl bg-orange-50 p-6">
                 <h3 className="text-3xl">{value}</h3>
                 <p className="font-medium text-blue-400 capitalize">{title}</p>
               </div>
@@ -57,13 +57,13 @@ export default function About() {
             return (
               <div key={index} className="relative flex h-80 justify-center">
                 <Image
-                  className="h-full rounded-sm object-cover"
+                  className="h-full rounded-xl object-cover"
                   src={image}
                   alt="member"
                   width={1000}
                   height={600}
                 />
-                <div className="absolute bottom-4 flex w-[90%] items-center justify-between rounded-sm bg-white/80 p-3 backdrop-blur-lg">
+                <div className="absolute bottom-4 flex w-[90%] items-center justify-between rounded-xl bg-white/80 p-3 backdrop-blur-lg">
                   <div>
                     <h3 className="text-lg font-medium text-gray-700">
                       {name}

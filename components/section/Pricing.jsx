@@ -10,7 +10,7 @@ export default function PricePage() {
         return (
           <div
             key={index}
-            className="rounded-sm border border-orange-200 bg-orange-50"
+            className="rounded-xl border border-orange-200 bg-orange-50"
           >
             <div className="border-b border-dashed border-orange-200 p-4">
               <h4 className="mb-1 font-medium">{title}</h4>
