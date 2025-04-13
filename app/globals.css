@@ -1,7 +1,10 @@
 @import "tailwindcss";
 
-@layer utilities {
+.scrollbar-hidden::-webkit-scrollbar{
+  display: none;
+}
 
+@layer utilities {
 
   footer h3 {
     @apply mb-3 text-lg capitalize;
@@ -23,8 +26,5 @@
     @apply mb-1 text-sm;
   }
 
-  p{
-    @apply text-justify
-  }
 
 }

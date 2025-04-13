@@ -305,5 +305,43 @@
       "title": "MLM Software Development",
       "description": "We develop unified MLM software ecosystems as specialized as our clients by integrating backend inventory/order tracking with customized consultant office suites, mobile apps and replicable sales funnels"
     }
+  ],
+  "testimonial": [
+    {
+      "img": "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg",
+      "title": "David",
+      "designation": "Project Manager",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,facilis iusto aliquid nemo nam, eum debitis, voluptate corrupti veniam in voluptatum sint aspernatur vel commodi! Consequuntur molestiae dignissimos praesentium pariatur?"
+    },
+    {
+      "img": "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg",
+      "title": "David",
+      "designation": "Project Manager",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,facilis iusto aliquid nemo nam, eum debitis, voluptate corrupti veniam in voluptatum sint aspernatur vel commodi! Consequuntur molestiae dignissimos praesentium pariatur?"
+    },
+    {
+      "img": "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg",
+      "title": "David",
+      "designation": "Project Manager",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,facilis iusto aliquid nemo nam, eum debitis, voluptate corrupti veniam in voluptatum sint aspernatur vel commodi! Consequuntur molestiae dignissimos praesentium pariatur?"
+    },
+    {
+      "img": "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg",
+      "title": "David",
+      "designation": "Project Manager",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,facilis iusto aliquid nemo nam, eum debitis, voluptate corrupti veniam in voluptatum sint aspernatur vel commodi! Consequuntur molestiae dignissimos praesentium pariatur?"
+    },
+    {
+      "img": "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg",
+      "title": "David",
+      "designation": "Project Manager",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,facilis iusto aliquid nemo nam, eum debitis, voluptate corrupti veniam in voluptatum sint aspernatur vel commodi! Consequuntur molestiae dignissimos praesentium pariatur?"
+    },
+    {
+      "img": "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg",
+      "title": "David",
+      "designation": "Project Manager",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,facilis iusto aliquid nemo nam, eum debitis, voluptate corrupti veniam in voluptatum sint aspernatur vel commodi! Consequuntur molestiae dignissimos praesentium pariatur?"
+    }
   ]
 }

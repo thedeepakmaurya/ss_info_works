@@ -5,11 +5,11 @@ import Link from "next/link";
 export default function About() {
   const { stat, team } = data;
   return (
-    <section className="px-3 text-gray-800 lg:px-20">
+    <section className="space-y-12 px-3 text-gray-700 lg:space-y-20 lg:px-20">
       <div className="grid gap-6 lg:grid-cols-2">
         <div className="row-span-2">
           <h5 className="mb-2 text-lg text-orange-400">How it started</h5>
-          <h2 className="mb-16 text-4xl lg:text-5xl">
+          <h2 className="mb-6 text-3xl lg:mb-16 lg:text-5xl">
             Empowering the World Through Digital Innovation
           </h2>
           <p>
@@ -38,15 +38,15 @@ export default function About() {
           {stat.map(({ title, value }, index) => {
             return (
               <div key={index} className="rounded-xl bg-orange-50 p-6">
-                <h3 className="text-3xl">{value}</h3>
-                <p className="font-medium text-blue-400 capitalize">{title}</p>
+                <h3 className="text-2xl font-medium">{value}</h3>
+                <p className="text-lg text-blue-400 capitalize">{title}</p>
               </div>
             );
           })}
         </div>
       </div>
 
-      <div className="mt-10">
+      <div>
         <h5 className="mb-2 text-lg text-orange-400">Meet the Team</h5>
         <h2 className="mb-6 text-3xl lg:text-4xl">
           Meet our dedicated team
@@ -65,10 +65,8 @@ export default function About() {
                 />
                 <div className="absolute bottom-4 flex w-[90%] items-center justify-between rounded-xl bg-white/80 p-3 backdrop-blur-lg">
                   <div>
-                    <h3 className="text-lg font-medium text-gray-700">
-                      {name}
-                    </h3>
-                    <p className="text-xs text-gray-700">{position}</p>
+                    <h3 className="text-lg font-medium">{name}</h3>
+                    <p className="text-sm">{position}</p>
                   </div>
                   <Link href={linkedin}>
                     <i className="ri-linkedin-line ri-xl rounded-sm bg-blue-400 p-1 text-white"></i>
@@ -80,10 +78,10 @@ export default function About() {
         </div>
       </div>
 
-      <div className="mt-10 grid gap-6 lg:grid-cols-2">
+      <div className="grid gap-6 lg:grid-cols-2">
         <div>
           <h5 className="mb-2 text-lg text-orange-400">Our Mission</h5>
-          <h2 className="mb-8 text-3xl lg:text-4xl">
+          <h2 className="mb-6 text-3xl lg:text-4xl">
             Driven by innovation, Focused on your success
           </h2>
           <p>
@@ -96,7 +94,7 @@ export default function About() {
         </div>
         <div>
           <h5 className="mb-2 text-lg text-orange-400">Our Vision</h5>
-          <h2 className="mb-8 text-3xl lg:text-4xl">
+          <h2 className="mb-6 text-3xl lg:text-4xl">
             Empowering the digital future, one solution at a time
           </h2>
           <p>
