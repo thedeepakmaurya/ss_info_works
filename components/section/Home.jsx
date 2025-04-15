@@ -98,7 +98,7 @@ export default function HomePage() {
       </section>
 
       <section className="grid gap-6 lg:grid-cols-3">
-      <div className="h-80 lg:h-[500px]">
+        <div className="h-80 lg:h-[500px]">
           <Image
             className="h-full w-full rounded-xl object-cover"
             src="https://images.pexels.com/photos/3747152/pexels-photo-3747152.jpeg"
@@ -143,7 +143,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section >
+      <section>
         <h5 className="mb-2 text-lg text-orange-400">Our Testimonial</h5>
         <h2 className="mb-6 text-3xl lg:text-4xl">What People Say</h2>
         <div className="scrollbar-hidden overflow-x-auto">

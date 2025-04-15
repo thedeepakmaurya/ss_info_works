@@ -10,26 +10,68 @@ export default function Header() {
   const { navigation } = data;
   const path = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [openSubMenuIndex, setOpenSubMenuIndex] = useState(null);
 
-  const menuItems = useMemo(
-    () =>
-      navigation.map((item, index) => {
-        const isActive = path === item.route;
-        return (
-          <li key={index} onClick={() => setIsMenuOpen(false)}>
+  // Function to toggle the visibility of the submenu
+  const toggleSubMenu = (index) => {
+    setOpenSubMenuIndex((prevIndex) => (prevIndex === index ? null : index));
+  };
+
+  const menuItems = useMemo(() => {
+    return navigation.map((item, index) => {
+      const isActive = path === item.route;
+      const isSubMenuVisible = openSubMenuIndex === index;
+
+      return (
+        <div key={index} className="relative">
+          <li
+            onClick={() => {
+              if (item.subMenu) {
+                toggleSubMenu(index); // Toggle submenu visibility
+              } else {
+                setIsMenuOpen(false); // Close main menu if no submenu
+                setOpenSubMenuIndex(null); // Reset submenu visibility
+              }
+            }}
+            className="relative"
+          >
             <Link
               href={item.route}
-              className={`capitalize hover:border-b hover:border-blue-400 ${
+              className={`flex items-center capitalize hover:border-b hover:border-blue-400 ${
                 isActive ? "border-b border-orange-400" : ""
               }`}
             >
               {item.label}
             </Link>
           </li>
-        );
-      }),
-    [navigation, path],
-  );
+
+          {/* Submenu visibility */}
+          {item.subMenu && (
+            <ul
+              className={`absolute z-10 w-fit rounded-xl border border-orange-200 bg-orange-50 p-3 shadow ${
+                isSubMenuVisible ? "block" : "hidden"
+              }`}
+            >
+              {item.subMenu.map((subItem, subIndex) => (
+                <li key={subIndex}>
+                  <Link
+                    href={subItem.route}
+                    className="mb-2 block text-nowrap capitalize hover:border-b hover:border-blue-400"
+                    onClick={() => {
+                      setIsMenuOpen(false);
+                      setOpenSubMenuIndex(null);
+                    }}
+                  >
+                    {subItem.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      );
+    });
+  }, [navigation, path, openSubMenuIndex]);
 
   return (
     <header className="sticky top-0 z-50 w-full bg-white">
@@ -50,7 +92,10 @@ export default function Header() {
         <div className="flex items-center gap-3">
           <Button text="Start a project" url="/contact" style="" />
           <button
-            onClick={() => setIsMenuOpen((prev) => !prev)}
+            onClick={() => {
+              setIsMenuOpen((prev) => !prev);
+              setOpenSubMenuIndex(null);
+            }}
             aria-expanded={isMenuOpen}
             className="lg:hidden"
           >
@@ -62,6 +107,8 @@ export default function Header() {
           </button>
         </div>
       </div>
+
+      {/* Mobile Nav */}
       <nav
         className={`fixed inset-y-0 top-20 w-full transform bg-white px-2 py-4 transition-transform lg:hidden ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"

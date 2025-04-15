@@ -10,7 +10,25 @@
     },
     {
       "label": "services",
-      "route": "/services"
+      "route": "#",
+      "subMenu": [
+        {
+          "label": "android development",
+          "route": "/android-development"
+        },
+        {
+          "label": "website development",
+          "route": "/website-development"
+        },
+        {
+          "label": "IOS development",
+          "route": "/ios-development"
+        },
+        {
+          "label": "seo services",
+          "route": "/seo-services"
+        }
+      ]
     },
     {
       "label": "portfolio",
