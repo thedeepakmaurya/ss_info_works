@@ -6,7 +6,7 @@ export default function HomePage() {
   const { services, testimonial } = data;
 
   return (
-    <div className="space-y-12 px-3 text-gray-700 lg:space-y-20 lg:px-20">
+    <div className="space-y-12 px-3 lg:space-y-20 lg:px-20">
       <section className="flex flex-col items-center gap-6">
         <div className="w-fit rounded-full border border-orange-200 bg-orange-50 p-4">
           <div className="relative">
@@ -46,17 +46,18 @@ export default function HomePage() {
       </section>
 
       <section className="grid gap-6 lg:grid-cols-3">
-        <div className="h-80 lg:h-[500px]">
+        <div className="h-80 w-full lg:h-[500px]">
           <Image
             className="h-full w-full rounded-xl object-cover"
             src="https://images.pexels.com/photos/3747152/pexels-photo-3747152.jpeg"
             alt="works"
             width={600}
             height={1200}
+            priority
           />
         </div>
         <div className="rounded-xl border border-orange-200 bg-orange-50 p-4 lg:col-span-2">
-          <h5 className="mb-2 text-lg text-orange-400">About Company</h5>
+          <h5>About Company</h5>
           <h2 className="mb-6 text-3xl lg:mb-16 lg:text-4xl">
             Application & Wesite <br /> Development Company
           </h2>
@@ -79,9 +80,9 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section >
-        <h5 className="mb-2 text-lg text-orange-400">Our Services</h5>
-        <h2 className="mb-6 text-3xl lg:text-4xl">Our Best Services</h2>
+      <section>
+        <h5>Our Services</h5>
+        <h2>Our Best Services</h2>
         <div className="grid gap-6 lg:grid-cols-3">
           {services.map(({ title, description }, index) => {
             return (
@@ -108,8 +109,8 @@ export default function HomePage() {
           />
         </div>
         <div className="lg:col-span-2">
-          <h5 className="mb-2 text-lg text-orange-400">Why Choose Us</h5>
-          <h2 className="mb-6 text-3xl lg:text-4xl">
+          <h5>Why Choose Us</h5>
+          <h2>
             We Execute Our Ideas from <br /> Start to Finish
           </h2>
           <div className="mb-4 rounded-xl border border-orange-200 bg-orange-50 p-4 lg:me-20">
@@ -144,8 +145,8 @@ export default function HomePage() {
       </section>
 
       <section>
-        <h5 className="mb-2 text-lg text-orange-400">Our Testimonial</h5>
-        <h2 className="mb-6 text-3xl lg:text-4xl">What People Say</h2>
+        <h5>Our Testimonial</h5>
+        <h2>What People Say</h2>
         <div className="scrollbar-hidden overflow-x-auto">
           <div className="flex flex-col gap-6 lg:flex-row">
             {testimonial.map((item, index) => {

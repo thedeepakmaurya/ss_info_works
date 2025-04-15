@@ -27,10 +27,10 @@ export default function Header() {
           <li
             onClick={() => {
               if (item.subMenu) {
-                toggleSubMenu(index); // Toggle submenu visibility
+                toggleSubMenu(index);
               } else {
-                setIsMenuOpen(false); // Close main menu if no submenu
-                setOpenSubMenuIndex(null); // Reset submenu visibility
+                setIsMenuOpen(false);
+                setOpenSubMenuIndex(null);
               }
             }}
             className="relative"
@@ -76,14 +76,15 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full bg-white">
       <div className="flex h-20 items-center justify-between border-b border-gray-100 px-3 lg:px-20">
-        <Image
-          className="h-16 w-auto"
-          src="/img/logo.png"
-          alt="logo"
-          width={100}
-          height={100}
-          priority
-        />
+        <Link href="/">
+          <Image
+            className="h-16 w-auto"
+            src="/img/logo.png"
+            alt="logo"
+            width={100}
+            height={60}
+          />
+        </Link>
         <nav className="hidden text-gray-700 lg:block">
           <ul className="flex flex-col gap-3 lg:flex-row lg:gap-6">
             {menuItems}
@@ -108,7 +109,6 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Mobile Nav */}
       <nav
         className={`fixed inset-y-0 top-20 w-full transform bg-white px-2 py-4 transition-transform lg:hidden ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"

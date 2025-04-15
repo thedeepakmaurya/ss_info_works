@@ -5,7 +5,7 @@ export default function PricePage() {
   const { pricing } = data;
 
   return (
-    <section className="grid gap-6 px-3 lg:grid-cols-4 lg:px-20 text-gray-700">
+    <section className="grid gap-6 px-3  lg:grid-cols-4 lg:px-20">
       {pricing.map(({ title, description, price, features }, index) => {
         return (
           <div
@@ -13,11 +13,14 @@ export default function PricePage() {
             className="rounded-xl border border-orange-200 bg-orange-50"
           >
             <div className="border-b border-dashed border-orange-200 p-4">
-              <h4 className="mb-1 text-lg font-medium">{title}</h4>
+              <h3>{title}</h3>
               <p className="mb-4 text-sm">{description}</p>
-              <h5 >
-                ₹ <span className="text-3xl text-red-400 font-semibold">{price}/-</span>
-              </h5>
+              <h4>
+                ₹
+                <span className="text-3xl font-semibold text-red-400">
+                  {price}/-
+                </span>
+              </h4>
             </div>
             <div className="p-4">
               <ul className="mb-4 space-y-1 text-sm">

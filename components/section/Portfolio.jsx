@@ -19,7 +19,7 @@ export default function PortfolioPage() {
                 width={1024}
                 height={768}
               />
-              <div className="flex items-center justify-between text-gray-700">
+              <div className="flex items-center justify-between ">
                 <span className="font-medium"> {type}</span>
                 <span>
                   <Link href={url}>

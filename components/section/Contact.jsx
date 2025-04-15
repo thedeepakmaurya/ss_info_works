@@ -2,12 +2,12 @@ import Link from "next/link";
 
 export default function ContactPage() {
   return (
-    <section className="px-3 text-gray-700 lg:px-20">
+    <section className="px-3 lg:px-20">
       <div className="grid gap-6 lg:grid-cols-3">
         <div className="space-y-4 rounded-xl border border-orange-200 bg-orange-50 p-6">
           <h3 className="text-lg font-medium">Get in Touch</h3>
           <div>
-            <h5 className="font-medium">Visit us</h5>
+            <h4>Visit us</h4>
             <p className="text-sm">Come say hello at our office HQ,</p>
             <p className="text-sm">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
@@ -15,14 +15,14 @@ export default function ContactPage() {
             </p>
           </div>
           <div>
-            <h5 className="font-medium">Chat to us</h5>
+            <h4>Chat to us</h4>
             <p className="text-sm">Our friendly team is here to help</p>
             <p className="text-sm">
               <Link href="mailto:">hello@ssinfoworks.com</Link>
             </p>
           </div>
           <div>
-            <h5 className="font-medium">Call us</h5>
+            <h4>Call us</h4>
             <p className="text-sm">Mon-Fri from 8am to 5pm</p>
             <p className="text-sm">
               <Link href="tel:+91">+91 9876 54321 </Link>

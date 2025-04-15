@@ -5,11 +5,11 @@ import Link from "next/link";
 export default function About() {
   const { stat, team } = data;
   return (
-    <section className="space-y-12 px-3 text-gray-700 lg:space-y-20 lg:px-20">
+    <section className="space-y-12 px-3  lg:space-y-20 lg:px-20">
       <div className="grid gap-6 lg:grid-cols-2">
         <div className="row-span-2">
-          <h5 className="mb-2 text-lg text-orange-400">How it started</h5>
-          <h2 className="mb-6 text-3xl lg:mb-16 lg:text-5xl">
+          <h5>How it started</h5>
+          <h2 className="lg:mb-16 lg:text-5xl">
             Empowering the World Through Digital Innovation
           </h2>
           <p>
@@ -47,8 +47,8 @@ export default function About() {
       </div>
 
       <div>
-        <h5 className="mb-2 text-lg text-orange-400">Meet the Team</h5>
-        <h2 className="mb-6 text-3xl lg:text-4xl">
+        <h5>Meet the Team</h5>
+        <h2>
           Meet our dedicated team
           <br /> of developers.
         </h2>
@@ -80,10 +80,8 @@ export default function About() {
 
       <div className="grid gap-6 lg:grid-cols-2">
         <div>
-          <h5 className="mb-2 text-lg text-orange-400">Our Mission</h5>
-          <h2 className="mb-6 text-3xl lg:text-4xl">
-            Driven by innovation, Focused on your success
-          </h2>
+          <h5>Our Mission</h5>
+          <h2>Driven by innovation, Focused on your success</h2>
           <p>
             To provide high-quality, secure, and user-centric web services that
             help our clients grow in the digital space. We are committed to
@@ -93,10 +91,8 @@ export default function About() {
           </p>
         </div>
         <div>
-          <h5 className="mb-2 text-lg text-orange-400">Our Vision</h5>
-          <h2 className="mb-6 text-3xl lg:text-4xl">
-            Empowering the digital future, one solution at a time
-          </h2>
+          <h5>Our Vision</h5>
+          <h2>Empowering the digital future, one solution at a time</h2>
           <p>
             To be a leading force in the digital world by delivering reliable,
             innovative, and scalable web solutions that empower businesses and

@@ -8,7 +8,7 @@ const Service = ({ slug }) => {
     item.slug.includes(slug),
   );
   return (
-    <section className="px-3 text-gray-700 lg:px-52">
+    <section className="px-3 lg:px-52">
       {filteredServices.map((item, index) => {
         return (
           <div className="space-y-6" key={index}>
@@ -19,21 +19,16 @@ const Service = ({ slug }) => {
               width={1200}
               height={600}
             />
-            <h2 className="mb-6 text-3xl lg:text-4xl">{item.title}</h2>
+            <h2>{item.title}</h2>
             {item.paragraph.map((paragraph, index) => (
               <p key={index} className="mb-6">
                 {paragraph}
               </p>
             ))}
-            <h2 className="mb-6 text-3xl lg:text-4xl">
-              Technologies that we use
-            </h2>
+            <h2>Technologies that we use</h2>
             <ul className="flex gap-8">
               {item.technologies.map((tech, index) => (
-                <li
-                  key={index}
-                  className="mb-2 text-blue-400 capitalize"
-                >
+                <li key={index} className="mb-2 text-blue-400 capitalize">
                   {tech}
                 </li>
               ))}
