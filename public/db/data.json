@@ -14,19 +14,19 @@
       "subMenu": [
         {
           "label": "android development",
-          "route": "/android-development"
+          "route": "/services/android-development"
         },
         {
           "label": "website development",
-          "route": "/website-development"
+          "route": "/services/website-development"
         },
         {
           "label": "IOS development",
-          "route": "/ios-development"
+          "route": "/services/ios-development"
         },
         {
           "label": "seo services",
-          "route": "/seo-services"
+          "route": "/services/seo-services"
         }
       ]
     },
@@ -360,6 +360,37 @@
       "title": "David",
       "designation": "Project Manager",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,facilis iusto aliquid nemo nam, eum debitis, voluptate corrupti veniam in voluptatum sint aspernatur vel commodi! Consequuntur molestiae dignissimos praesentium pariatur?"
+    }
+  ],
+  "servicesPage": [
+    {
+      "slug": "android-development",
+      "title": "Android App Development Services",
+      "img": "https://images.pexels.com/photos/17781649/pexels-photo-17781649/free-photo-of-man-looking-at-the-stock-charts-on-the-phone-and-tablet.jpeg",
+      "technologies": ["flutter", "react native", "kotlin", "swift"],
+      "paragraph": ["SG Web App is the quality Android App Development service in Delhi. With us, you choose a partner that is all about providing excellence in each and every single aspect of the Android application development process you go with us. We create perfectly balanced technical expertise, innovative design, and a customer-focused approach that helps to outshine competitors. Applications but solutions for your business to grow, engage, and be successful in today's competitive digital world.", "We are the advanced Android App Development service providers in Delhi . In fact, our service does not stop once your app goes live. We do post-launch support to handle all updates, maintenance, and improvements that will have to be done on the app. Be it new features, performance optimization, or bug fixes, our team is always ready to ensure that your app keeps delivering its value to your users. We understand very well that getting your app to market as fast as possible without compromising quality is important.", "Choose us for all the needs of your Android App Development service in India . By utilizing our lineated development process combined with Agile approaches, we are able to provide your app more quickly to give you an edge over your competition. We closely work with you in every stage from concept through deployment to make sure your app meets the expectations and is ready for launching on time. Our design philosophy is to make interfaces alluring, user-friendly, and engaging for the users. So, we stress UI/UX design to make sure your app is functional and at the same time catchy for users to come for more, increasing customer retention or brand loyalty."]
+    },
+    {
+      "slug": "website-development",
+      "title": "Website Development Services",
+      "img": "https://images.pexels.com/photos/38519/macbook-laptop-ipad-apple-38519.jpeg",
+      "technologies": ["React Js", "Next Js", "Angular", "Vue Js", "Node Js", "Express Js", "Mongo DB"],
+
+      "paragraph": ["SG Web App is the quality Android App Development service in Delhi. With us, you choose a partner that is all about providing excellence in each and every single aspect of the Android application development process you go with us. We create perfectly balanced technical expertise, innovative design, and a customer-focused approach that helps to outshine competitors. Applications but solutions for your business to grow, engage, and be successful in today's competitive digital world.", "We are the advanced Android App Development service providers in Delhi . In fact, our service does not stop once your app goes live. We do post-launch support to handle all updates, maintenance, and improvements that will have to be done on the app. Be it new features, performance optimization, or bug fixes, our team is always ready to ensure that your app keeps delivering its value to your users. We understand very well that getting your app to market as fast as possible without compromising quality is important.", "Choose us for all the needs of your Android App Development service in India . By utilizing our lineated development process combined with Agile approaches, we are able to provide your app more quickly to give you an edge over your competition. We closely work with you in every stage from concept through deployment to make sure your app meets the expectations and is ready for launching on time. Our design philosophy is to make interfaces alluring, user-friendly, and engaging for the users. So, we stress UI/UX design to make sure your app is functional and at the same time catchy for users to come for more, increasing customer retention or brand loyalty."]
+    },
+    {
+      "slug": "ios-development",
+      "title": "IOS Development Services",
+      "img": "https://images.pexels.com/photos/7213504/pexels-photo-7213504.jpeg",
+      "technologies": ["flutter", "react native", "kotlin", "swift"],
+      "paragraph": ["SG Web App is the quality Android App Development service in Delhi. With us, you choose a partner that is all about providing excellence in each and every single aspect of the Android application development process you go with us. We create perfectly balanced technical expertise, innovative design, and a customer-focused approach that helps to outshine competitors. Applications but solutions for your business to grow, engage, and be successful in today's competitive digital world.", "We are the advanced Android App Development service providers in Delhi . In fact, our service does not stop once your app goes live. We do post-launch support to handle all updates, maintenance, and improvements that will have to be done on the app. Be it new features, performance optimization, or bug fixes, our team is always ready to ensure that your app keeps delivering its value to your users. We understand very well that getting your app to market as fast as possible without compromising quality is important.", "Choose us for all the needs of your Android App Development service in India . By utilizing our lineated development process combined with Agile approaches, we are able to provide your app more quickly to give you an edge over your competition. We closely work with you in every stage from concept through deployment to make sure your app meets the expectations and is ready for launching on time. Our design philosophy is to make interfaces alluring, user-friendly, and engaging for the users. So, we stress UI/UX design to make sure your app is functional and at the same time catchy for users to come for more, increasing customer retention or brand loyalty."]
+    },
+    {
+      "slug": "seo-services",
+      "title": "SEO Services",
+      "img": "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg",
+      "technologies": ["Google Analytics", "SEMrush", "Ahrefs", "moz"],
+      "paragraph": ["SG Web App is the quality Android App Development service in Delhi. With us, you choose a partner that is all about providing excellence in each and every single aspect of the Android application development process you go with us. We create perfectly balanced technical expertise, innovative design, and a customer-focused approach that helps to outshine competitors. Applications but solutions for your business to grow, engage, and be successful in today's competitive digital world.", "We are the advanced Android App Development service providers in Delhi . In fact, our service does not stop once your app goes live. We do post-launch support to handle all updates, maintenance, and improvements that will have to be done on the app. Be it new features, performance optimization, or bug fixes, our team is always ready to ensure that your app keeps delivering its value to your users. We understand very well that getting your app to market as fast as possible without compromising quality is important.", "Choose us for all the needs of your Android App Development service in India . By utilizing our lineated development process combined with Agile approaches, we are able to provide your app more quickly to give you an edge over your competition. We closely work with you in every stage from concept through deployment to make sure your app meets the expectations and is ready for launching on time. Our design philosophy is to make interfaces alluring, user-friendly, and engaging for the users. So, we stress UI/UX design to make sure your app is functional and at the same time catchy for users to come for more, increasing customer retention or brand loyalty."]
     }
   ]
 }

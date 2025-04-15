@@ -79,7 +79,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="">
+      <section >
         <h5 className="mb-2 text-lg text-orange-400">Our Services</h5>
         <h2 className="mb-6 text-3xl lg:text-4xl">Our Best Services</h2>
         <div className="grid gap-6 lg:grid-cols-3">
