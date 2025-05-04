@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Button from "../ui/Button";
 import data from "@/public/db/data.json";
 
 const Service = ({ slug }) => {
@@ -8,7 +7,7 @@ const Service = ({ slug }) => {
     item.slug.includes(slug),
   );
   return (
-    <section className="px-3 lg:px-52">
+    <section className="container">
       {filteredServices.map((item, index) => {
         return (
           <div className="space-y-6" key={index}>

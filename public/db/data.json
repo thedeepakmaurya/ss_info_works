@@ -77,25 +77,26 @@
           "route": "/web-development"
         },
         {
-          "label": "android & ios development",
-          "route": "/mobile-app-development"
+          "label": "android development",
+          "route": "/android-development"
         },
         {
-          "label": "digital marketing",
-          "route": "/digital-marketing"
+          "label": "ios development",
+          "route": "/ios-development"
         },
         {
-          "label": "seo/smo marketing",
-          "route": "/seo-smo-marketing"
+          "label": "seo services",
+          "route": "/seo-services"
         }
       ]
     }
   ],
   "pricing": [
     {
-      "title": "BASIC WEBSITE",
+      "title": "STATIC WEBSITE",
       "description": "A simple, static website to showcase your business, services, orportfolio — fast, clean, and mobile-friendly.",
-      "price": "8500",
+      "price": "7,000",
+      "icon": "CiLaptop",
       "features": [
         "Up to 5 responsive pages (Home, About, Services, Contact, etc.)",
         "Clean, modern design tailored to your brand",
@@ -106,196 +107,152 @@
       ]
     },
     {
-      "title": "ADVANCED WEBSITE",
-      "description": "A simple, static website to showcase your business, services, orportfolio — fast, clean, and mobile-friendly.",
-      "price": "16,800",
+      "title": "DYNAMIC WEBSITE",
+      "description": "An interactive, dynamic website to engage your audience with real-time updates, personalized content, and seamless user experiences — powerful, responsive, and built to grow with your business.",
+      "price": "10,999",
+      "icon": "CiLaptop",
       "features": [
-        "Up to 5 responsive pages (Home, About, Services, Contact, etc.)",
-        "Clean, modern design tailored to your brand",
-        "Mobile-friendly and fast loading",
-        "Basic contact form integration",
-        "SEO-ready structure",
-        "Social media links"
-      ]
-    },
-    {
-      "title": "ECOMMERCE WEBSITE",
-      "description": "A simple, static website to showcase your business, services, orportfolio — fast, clean, and mobile-friendly.",
-      "price": "19,500",
-      "features": [
-        "Up to 5 responsive pages (Home, About, Services, Contact, etc.)",
-        "Clean, modern design tailored to your brand",
-        "Mobile-friendly and fast loading",
-        "Basic contact form integration",
-        "SEO-ready structure",
-        "Social media links"
-      ]
-    },
-    {
-      "title": "ANDROID APPLICATION",
-      "description": "A simple, static website to showcase your business, services, orportfolio — fast, clean, and mobile-friendly.",
-      "price": "15,500",
-      "features": [
-        "Up to 5 responsive pages (Home, About, Services, Contact, etc.)",
-        "Clean, modern design tailored to your brand",
-        "Mobile-friendly and fast loading",
-        "Basic contact form integration",
-        "SEO-ready structure",
-        "Social media links"
-      ]
-    },
-    {
-      "title": "BASIC WEBSITE",
-      "description": "A simple, static website to showcase your business, services, orportfolio — fast, clean, and mobile-friendly.",
-      "price": "8500",
-      "features": [
-        "Up to 5 responsive pages (Home, About, Services, Contact, etc.)",
-        "Clean, modern design tailored to your brand",
-        "Mobile-friendly and fast loading",
-        "Basic contact form integration",
-        "SEO-ready structure",
-        "Social media links"
-      ]
-    },
-    {
-      "title": "ADVANCED WEBSITE",
-      "description": "A simple, static website to showcase your business, services, orportfolio — fast, clean, and mobile-friendly.",
-      "price": "16,800",
-      "features": [
-        "Up to 5 responsive pages (Home, About, Services, Contact, etc.)",
-        "Clean, modern design tailored to your brand",
-        "Mobile-friendly and fast loading",
-        "Basic contact form integration",
-        "SEO-ready structure",
-        "Social media links"
+        "Dynamic customize website",
+        "Admin panel",
+        "Domain for 1 year",
+        "Social media integration",
+        "POP Business Email id",
+        "Website maintenance support for 1 year",
+        "Complementary Google on page SEO promotion"
       ]
     },
     {
       "title": "ECOMMERCE WEBSITE",
-      "description": "A simple, static website to showcase your business, services, orportfolio — fast, clean, and mobile-friendly.",
-      "price": "19,500",
+      "description": "A dynamic e-commerce website to showcase and sell your products online — fast, secure, mobile-friendly, and built to convert visitors into customers.",
+      "price": "17,999",
+      "icon": "CiShoppingCart",
       "features": [
-        "Up to 5 responsive pages (Home, About, Services, Contact, etc.)",
-        "Clean, modern design tailored to your brand",
-        "Mobile-friendly and fast loading",
-        "Basic contact form integration",
-        "SEO-ready structure",
-        "Social media links"
+        "Customized website",
+        "Master admin panel",
+        "User panel",
+        "Domain for 1 year",
+        "Hosting for 1 year",
+        "Amc for 1 year",
+        "Payment gateway integration",
+        "Social media integration"
+      ]
+    },
+    {
+      "title": "MULTI VENDOR ECOMMERCE WEBSITE",
+      "description": "A powerful multi-vendor e-commerce platform where multiple sellers can list and manage their products — scalable, secure, mobile-friendly, and designed to streamline sales for both vendors and customers.",
+      "price": "35,000",
+      "icon": "CiShoppingCart",
+      "features": [
+        "Vendor registration and management",
+        "Individual vendor dashboards",
+        "Master admin panel",
+        "Product and order management",
+        "Secure payment gateway integration",
+        "Customer accounts and wishlists",
+        "Responsive, mobile-friendly design",
+        "1-year domain, hosting & AMC included"
       ]
     },
     {
       "title": "ANDROID APPLICATION",
-      "description": "A simple, static website to showcase your business, services, orportfolio — fast, clean, and mobile-friendly.",
-      "price": "15,500",
+      "description": "A feature-rich multi-vendor e-commerce Android app that lets multiple sellers manage their stores and customers shop with ease — fast, intuitive, and optimized for mobile performance and scalability.",
+      "price": "50,000",
+      "icon": "CiMobile1",
       "features": [
-        "Up to 5 responsive pages (Home, About, Services, Contact, etc.)",
-        "Clean, modern design tailored to your brand",
-        "Mobile-friendly and fast loading",
-        "Basic contact form integration",
-        "SEO-ready structure",
-        "Social media links"
+        "User-friendly, mobile-optimized design",
+        "Customer and vendor login",
+        "Vendor product and order management",
+        "Real-time order notifications",
+        "Secure in-app payment integration",
+        "Product search and filters",
+        "Wishlist and cart functionality",
+        "Push notifications for updates and offers"
+      ]
+    },
+    {
+      "title": "IOS APPLICATION",
+      "description": "A sleek, high-performance multi-vendor e-commerce iOS app empowering multiple sellers and delivering a seamless shopping experience — secure, responsive, and optimized for Apple devices.",
+      "price": "90,000",
+      "icon": "CiMobile3",
+      "features": [
+        "Clean, intuitive iOS-optimized UI",
+        "Separate customer and vendor logins",
+        "Vendor dashboard for managing products & orders",
+        "Real-time notifications for orders and messages",
+        "Secure payments with Apple Pay integration",
+        "Smart search and category filters",
+        "Wishlist, cart, and order tracking",
+        "Push notifications for promotions and updates"
       ]
     }
   ],
   "projects": [
     {
       "type": "Web Development",
-      "image": "https://cdn.dribbble.com/userupload/35082206/file/original-77e076295021b00ab15ab1c9161ee645.png",
+      "image": "/img/portfolio/web_development.webp",
       "url": "#"
     },
     {
       "type": "Ecommerce",
-      "image": "https://cdn.dribbble.com/userupload/29997233/file/original-2506c5ad5740a3108ea9b6b85595040e.jpg",
+      "image": "/img/portfolio/ecommerce.webp",
       "url": "#"
     },
     {
       "type": "Web Design",
-      "image": "https://cdn.dribbble.com/userupload/29611471/file/original-23ecfe2b57768e161a1d3461e73cc3f0.png",
+      "image": "/img/portfolio/web_design.webp",
       "url": "#"
     },
     {
       "type": "Android App",
-      "image": "https://cdn.dribbble.com/userupload/18241745/file/original-e20c280338a7522d363cf8715f83c251.png",
+      "image": "/img/portfolio/android_app.webp",
       "url": "#"
     },
     {
       "type": "IOS App",
-      "image": "https://cdn.dribbble.com/userupload/37113453/file/original-452286f2629021890140e3bb3f5ec91f.jpg",
-      "url": "#"
-    },
-    {
-      "type": "web Design",
-      "image": "https://cdn.dribbble.com/userupload/29611471/file/original-23ecfe2b57768e161a1d3461e73cc3f0.png",
-      "url": "#"
-    },
-    {
-      "type": "Android App",
-      "image": "https://cdn.dribbble.com/userupload/18241745/file/original-e20c280338a7522d363cf8715f83c251.png",
-      "url": "#"
-    },
-    {
-      "type": "IOS App",
-      "image": "https://cdn.dribbble.com/userupload/37113453/file/original-452286f2629021890140e3bb3f5ec91f.jpg",
-      "url": "#"
-    },
-    {
-      "type": "web Design",
-      "image": "https://cdn.dribbble.com/userupload/29611471/file/original-23ecfe2b57768e161a1d3461e73cc3f0.png",
-      "url": "#"
-    },
-    {
-      "type": "Android App",
-      "image": "https://cdn.dribbble.com/userupload/18241745/file/original-e20c280338a7522d363cf8715f83c251.png",
-      "url": "#"
-    },
-    {
-      "type": "IOS App",
-      "image": "https://cdn.dribbble.com/userupload/37113453/file/original-452286f2629021890140e3bb3f5ec91f.jpg",
+      "image": "/img/portfolio/ios_app.webp",
       "url": "#"
     }
   ],
   "stat": [
     {
       "title": "Years Experience",
-      "value": "3.5+"
+      "value": "3.5 +",
+      "icon": "CiStar"
     },
     {
       "title": "project completed",
-      "value": "800+"
+      "value": "800 +",
+      "icon": "CiBookmarkCheck"
     },
     {
       "title": "happy clients",
-      "value": "1000+"
+      "value": "1000 +",
+      "icon": "CiFaceSmile"
     },
     {
       "title": "team members",
-      "value": "50"
+      "value": "50 +",
+      "icon": "CiUser"
     }
   ],
   "team": [
     {
-      "name": "Deepak Maurya",
-      "position": "Web Developer",
-      "image": "https://images.pexels.com/photos/31431920/pexels-photo-31431920/free-photo-of-professional-headshot-of-smiling-man-with-glasses.jpeg",
+      "name": "Sachin Mishra",
+      "position": "Managing Director",
+      "image": "/img/team/sachin_mishra.jpg",
+      "linkedin": "#"
+    },
+    {
+      "name": "Simran Vohra",
+      "position": "CEO",
+      "image": "/img/team/simran_vohra.jpg",
       "linkedin": "#"
     },
     {
       "name": "Deepak Maurya",
-      "position": "Web Developer",
-      "image": "https://images.pexels.com/photos/31431920/pexels-photo-31431920/free-photo-of-professional-headshot-of-smiling-man-with-glasses.jpeg",
-      "linkedin": "#"
-    },
-    {
-      "name": "Deepak Maurya",
-      "position": "Web Developer",
-      "image": "https://images.pexels.com/photos/31431920/pexels-photo-31431920/free-photo-of-professional-headshot-of-smiling-man-with-glasses.jpeg",
-      "linkedin": "#"
-    },
-    {
-      "name": "Deepak Maurya",
-      "position": "Web Developer",
-      "image": "https://images.pexels.com/photos/31431920/pexels-photo-31431920/free-photo-of-professional-headshot-of-smiling-man-with-glasses.jpeg",
-      "linkedin": "#"
+      "position": "Frontend Developer",
+      "image": "/img/team/deepak_maurya.jpg",
+      "linkedin": "https://www.linkedin.com/in/thedeepakmaurya/"
     }
   ],
   "services": [
@@ -368,29 +325,53 @@
       "title": "Android App Development Services",
       "img": "https://images.pexels.com/photos/17781649/pexels-photo-17781649/free-photo-of-man-looking-at-the-stock-charts-on-the-phone-and-tablet.jpeg",
       "technologies": ["flutter", "react native", "kotlin", "swift"],
-      "paragraph": ["SG Web App is the quality Android App Development service in Delhi. With us, you choose a partner that is all about providing excellence in each and every single aspect of the Android application development process you go with us. We create perfectly balanced technical expertise, innovative design, and a customer-focused approach that helps to outshine competitors. Applications but solutions for your business to grow, engage, and be successful in today's competitive digital world.", "We are the advanced Android App Development service providers in Delhi . In fact, our service does not stop once your app goes live. We do post-launch support to handle all updates, maintenance, and improvements that will have to be done on the app. Be it new features, performance optimization, or bug fixes, our team is always ready to ensure that your app keeps delivering its value to your users. We understand very well that getting your app to market as fast as possible without compromising quality is important.", "Choose us for all the needs of your Android App Development service in India . By utilizing our lineated development process combined with Agile approaches, we are able to provide your app more quickly to give you an edge over your competition. We closely work with you in every stage from concept through deployment to make sure your app meets the expectations and is ready for launching on time. Our design philosophy is to make interfaces alluring, user-friendly, and engaging for the users. So, we stress UI/UX design to make sure your app is functional and at the same time catchy for users to come for more, increasing customer retention or brand loyalty."]
+      "paragraph": [
+        "SG Web App is the quality Android App Development service in Delhi. With us, you choose a partner that is all about providing excellence in each and every single aspect of the Android application development process you go with us. We create perfectly balanced technical expertise, innovative design, and a customer-focused approach that helps to outshine competitors. Applications but solutions for your business to grow, engage, and be successful in today's competitive digital world.",
+        "We are the advanced Android App Development service providers in Delhi . In fact, our service does not stop once your app goes live. We do post-launch support to handle all updates, maintenance, and improvements that will have to be done on the app. Be it new features, performance optimization, or bug fixes, our team is always ready to ensure that your app keeps delivering its value to your users. We understand very well that getting your app to market as fast as possible without compromising quality is important.",
+        "Choose us for all the needs of your Android App Development service in India . By utilizing our lineated development process combined with Agile approaches, we are able to provide your app more quickly to give you an edge over your competition. We closely work with you in every stage from concept through deployment to make sure your app meets the expectations and is ready for launching on time. Our design philosophy is to make interfaces alluring, user-friendly, and engaging for the users. So, we stress UI/UX design to make sure your app is functional and at the same time catchy for users to come for more, increasing customer retention or brand loyalty."
+      ]
     },
     {
       "slug": "website-development",
       "title": "Website Development Services",
       "img": "https://images.pexels.com/photos/38519/macbook-laptop-ipad-apple-38519.jpeg",
-      "technologies": ["React Js", "Next Js", "Angular", "Vue Js", "Node Js", "Express Js", "Mongo DB"],
+      "technologies": [
+        "React Js",
+        "Next Js",
+        "Angular",
+        "Vue Js",
+        "Node Js",
+        "Express Js",
+        "Mongo DB"
+      ],
 
-      "paragraph": ["SG Web App is the quality Android App Development service in Delhi. With us, you choose a partner that is all about providing excellence in each and every single aspect of the Android application development process you go with us. We create perfectly balanced technical expertise, innovative design, and a customer-focused approach that helps to outshine competitors. Applications but solutions for your business to grow, engage, and be successful in today's competitive digital world.", "We are the advanced Android App Development service providers in Delhi . In fact, our service does not stop once your app goes live. We do post-launch support to handle all updates, maintenance, and improvements that will have to be done on the app. Be it new features, performance optimization, or bug fixes, our team is always ready to ensure that your app keeps delivering its value to your users. We understand very well that getting your app to market as fast as possible without compromising quality is important.", "Choose us for all the needs of your Android App Development service in India . By utilizing our lineated development process combined with Agile approaches, we are able to provide your app more quickly to give you an edge over your competition. We closely work with you in every stage from concept through deployment to make sure your app meets the expectations and is ready for launching on time. Our design philosophy is to make interfaces alluring, user-friendly, and engaging for the users. So, we stress UI/UX design to make sure your app is functional and at the same time catchy for users to come for more, increasing customer retention or brand loyalty."]
+      "paragraph": [
+        "SG Web App is the quality Android App Development service in Delhi. With us, you choose a partner that is all about providing excellence in each and every single aspect of the Android application development process you go with us. We create perfectly balanced technical expertise, innovative design, and a customer-focused approach that helps to outshine competitors. Applications but solutions for your business to grow, engage, and be successful in today's competitive digital world.",
+        "We are the advanced Android App Development service providers in Delhi . In fact, our service does not stop once your app goes live. We do post-launch support to handle all updates, maintenance, and improvements that will have to be done on the app. Be it new features, performance optimization, or bug fixes, our team is always ready to ensure that your app keeps delivering its value to your users. We understand very well that getting your app to market as fast as possible without compromising quality is important.",
+        "Choose us for all the needs of your Android App Development service in India . By utilizing our lineated development process combined with Agile approaches, we are able to provide your app more quickly to give you an edge over your competition. We closely work with you in every stage from concept through deployment to make sure your app meets the expectations and is ready for launching on time. Our design philosophy is to make interfaces alluring, user-friendly, and engaging for the users. So, we stress UI/UX design to make sure your app is functional and at the same time catchy for users to come for more, increasing customer retention or brand loyalty."
+      ]
     },
     {
       "slug": "ios-development",
       "title": "IOS Development Services",
       "img": "https://images.pexels.com/photos/7213504/pexels-photo-7213504.jpeg",
       "technologies": ["flutter", "react native", "kotlin", "swift"],
-      "paragraph": ["SG Web App is the quality Android App Development service in Delhi. With us, you choose a partner that is all about providing excellence in each and every single aspect of the Android application development process you go with us. We create perfectly balanced technical expertise, innovative design, and a customer-focused approach that helps to outshine competitors. Applications but solutions for your business to grow, engage, and be successful in today's competitive digital world.", "We are the advanced Android App Development service providers in Delhi . In fact, our service does not stop once your app goes live. We do post-launch support to handle all updates, maintenance, and improvements that will have to be done on the app. Be it new features, performance optimization, or bug fixes, our team is always ready to ensure that your app keeps delivering its value to your users. We understand very well that getting your app to market as fast as possible without compromising quality is important.", "Choose us for all the needs of your Android App Development service in India . By utilizing our lineated development process combined with Agile approaches, we are able to provide your app more quickly to give you an edge over your competition. We closely work with you in every stage from concept through deployment to make sure your app meets the expectations and is ready for launching on time. Our design philosophy is to make interfaces alluring, user-friendly, and engaging for the users. So, we stress UI/UX design to make sure your app is functional and at the same time catchy for users to come for more, increasing customer retention or brand loyalty."]
+      "paragraph": [
+        "SG Web App is the quality Android App Development service in Delhi. With us, you choose a partner that is all about providing excellence in each and every single aspect of the Android application development process you go with us. We create perfectly balanced technical expertise, innovative design, and a customer-focused approach that helps to outshine competitors. Applications but solutions for your business to grow, engage, and be successful in today's competitive digital world.",
+        "We are the advanced Android App Development service providers in Delhi . In fact, our service does not stop once your app goes live. We do post-launch support to handle all updates, maintenance, and improvements that will have to be done on the app. Be it new features, performance optimization, or bug fixes, our team is always ready to ensure that your app keeps delivering its value to your users. We understand very well that getting your app to market as fast as possible without compromising quality is important.",
+        "Choose us for all the needs of your Android App Development service in India . By utilizing our lineated development process combined with Agile approaches, we are able to provide your app more quickly to give you an edge over your competition. We closely work with you in every stage from concept through deployment to make sure your app meets the expectations and is ready for launching on time. Our design philosophy is to make interfaces alluring, user-friendly, and engaging for the users. So, we stress UI/UX design to make sure your app is functional and at the same time catchy for users to come for more, increasing customer retention or brand loyalty."
+      ]
     },
     {
       "slug": "seo-services",
       "title": "SEO Services",
       "img": "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg",
       "technologies": ["Google Analytics", "SEMrush", "Ahrefs", "moz"],
-      "paragraph": ["SG Web App is the quality Android App Development service in Delhi. With us, you choose a partner that is all about providing excellence in each and every single aspect of the Android application development process you go with us. We create perfectly balanced technical expertise, innovative design, and a customer-focused approach that helps to outshine competitors. Applications but solutions for your business to grow, engage, and be successful in today's competitive digital world.", "We are the advanced Android App Development service providers in Delhi . In fact, our service does not stop once your app goes live. We do post-launch support to handle all updates, maintenance, and improvements that will have to be done on the app. Be it new features, performance optimization, or bug fixes, our team is always ready to ensure that your app keeps delivering its value to your users. We understand very well that getting your app to market as fast as possible without compromising quality is important.", "Choose us for all the needs of your Android App Development service in India . By utilizing our lineated development process combined with Agile approaches, we are able to provide your app more quickly to give you an edge over your competition. We closely work with you in every stage from concept through deployment to make sure your app meets the expectations and is ready for launching on time. Our design philosophy is to make interfaces alluring, user-friendly, and engaging for the users. So, we stress UI/UX design to make sure your app is functional and at the same time catchy for users to come for more, increasing customer retention or brand loyalty."]
+      "paragraph": [
+        "SG Web App is the quality Android App Development service in Delhi. With us, you choose a partner that is all about providing excellence in each and every single aspect of the Android application development process you go with us. We create perfectly balanced technical expertise, innovative design, and a customer-focused approach that helps to outshine competitors. Applications but solutions for your business to grow, engage, and be successful in today's competitive digital world.",
+        "We are the advanced Android App Development service providers in Delhi . In fact, our service does not stop once your app goes live. We do post-launch support to handle all updates, maintenance, and improvements that will have to be done on the app. Be it new features, performance optimization, or bug fixes, our team is always ready to ensure that your app keeps delivering its value to your users. We understand very well that getting your app to market as fast as possible without compromising quality is important.",
+        "Choose us for all the needs of your Android App Development service in India . By utilizing our lineated development process combined with Agile approaches, we are able to provide your app more quickly to give you an edge over your competition. We closely work with you in every stage from concept through deployment to make sure your app meets the expectations and is ready for launching on time. Our design philosophy is to make interfaces alluring, user-friendly, and engaging for the users. So, we stress UI/UX design to make sure your app is functional and at the same time catchy for users to come for more, increasing customer retention or brand loyalty."
+      ]
     }
   ]
 }

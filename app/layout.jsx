@@ -1,13 +1,12 @@
 import MainLayout from "@/components/layout/MainLayout";
 import "./globals.css";
 import "remixicon/fonts/remixicon.css";
-import { Urbanist } from 'next/font/google'
+import { Urbanist } from "next/font/google";
 
 const urbanist = Urbanist({
-  subsets: ['latin'],
-  variable: '--font-urbanist',
-  display: 'swap',
-})
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export const metadata = {
   title: "SS Infoworks Technology",

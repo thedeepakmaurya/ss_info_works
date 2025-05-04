@@ -25,6 +25,13 @@ export default function Header() {
       return (
         <div key={index} className="relative">
           <li
+            onMouseEnter={() => {
+              if (item.subMenu) {
+                toggleSubMenu(index);
+              } else {
+                setOpenSubMenuIndex(null);
+              }
+            }}
             onClick={() => {
               if (item.subMenu) {
                 toggleSubMenu(index);
@@ -48,6 +55,9 @@ export default function Header() {
           {/* Submenu visibility */}
           {item.subMenu && (
             <ul
+              onMouseLeave={() => {
+                setOpenSubMenuIndex(null);
+              }}
               className={`absolute z-10 w-fit rounded-xl border border-orange-200 bg-orange-50 p-3 shadow ${
                 isSubMenuVisible ? "block" : "hidden"
               }`}
@@ -91,7 +101,7 @@ export default function Header() {
           </ul>
         </nav>
         <div className="flex items-center gap-3">
-          <Button text="Start a project" url="/contact" style="" />
+          <Button text="Start Project" url="/contact" style="" />
           <button
             onClick={() => {
               setIsMenuOpen((prev) => !prev);

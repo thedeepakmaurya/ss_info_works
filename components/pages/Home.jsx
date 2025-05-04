@@ -115,7 +115,7 @@ export default function HomePage() {
           </h2>
           <div className="mb-4 rounded-xl border border-orange-200 bg-orange-50 p-4 lg:me-20">
             <p className="flex gap-1">
-              <span className="text-5xl font-semibold">1.</span>
+              <span className="text text-5xl font-semibold ">1.</span>
               With over 14 years specializing in this industry, we have honed
               the skills to expertly delivered for every client objective.
             </p>

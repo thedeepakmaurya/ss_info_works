@@ -6,7 +6,7 @@ export default function Footer() {
   const { usefullinks } = data;
 
   return (
-    <footer className="w-full">
+    <footer>
       <div className="h-auto w-full bg-blue-950 px-2.5 text-white lg:px-20">
         <div className="grid gap-6 py-10 lg:grid-cols-4 lg:gap-0">
           <div>
@@ -14,25 +14,22 @@ export default function Footer() {
             <h5>For Sales</h5>
             <ul className="mb-4">
               <li>
-                <Link href="">+1 123-456-7890</Link>
-              </li>
-              <li>
-                <Link href="">+1 987-654-3210</Link>
+                <Link href="+918882425881">+91 88824 25881</Link>
               </li>
             </ul>
             <h5>For Support</h5>
             <ul className="mb-4">
               <li>
-                <Link href="">+1 123-456-7890</Link>
+                <Link href="+917009080966">+91 70090 80966</Link>
               </li>
               <li>
-                <Link href="">+1 987-654-3210</Link>
+                <Link href="+919315673606">+91 93156 73606</Link>
               </li>
             </ul>
             <h5>Mail ID</h5>
-                <Link href="mailto:support@ssinfoworks.com">
-                 support@ssinfoworks.com
-                </Link>
+            <Link href="mailto:Ssinfoworkstechnology@gmail.com">
+              Ssinfoworkstechnology@gmail.com
+            </Link>
           </div>
           {usefullinks.map((item, index) => (
             <div key={index}>
