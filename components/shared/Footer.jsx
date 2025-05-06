@@ -1,5 +1,6 @@
 import Link from "next/link";
 import data from "../../public/db/data.json";
+import { CiFacebook, CiInstagram, CiLinkedin, CiTwitter, CiYoutube } from "react-icons/ci";
 
 export default function Footer() {
   const currYear = new Date().getFullYear();
@@ -45,24 +46,21 @@ export default function Footer() {
           ))}
           <div>
             <h3>Find us on</h3>
-            <div className="space-x-4">
+            <div className="space-x-3 flex">
               <Link href="#">
-                <i className="ri-facebook-line ri-lg"></i>
+              <CiFacebook size={24} />
               </Link>
               <Link href="#">
-                <i className="ri-instagram-line ri-lg"></i>
+              <CiInstagram size={24} />
               </Link>
               <Link href="#">
-                <i className="ri-twitter-x-line ri-lg"></i>
+              <CiTwitter size={24} />
               </Link>
               <Link href="#">
-                <i className="ri-linkedin-line ri-lg"></i>
+              <CiLinkedin size={24} />
               </Link>
               <Link href="#">
-                <i className="ri-github-line ri-lg"></i>
-              </Link>
-              <Link href="#">
-                <i className="ri-youtube-line ri-lg"></i>
+              <CiYoutube size={24} />
               </Link>
             </div>
           </div>

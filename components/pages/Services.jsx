@@ -1,7 +1,7 @@
 import Image from "next/image";
 import data from "@/public/db/data.json";
 
-const Service = ({ slug }) => {
+const Services = ({ slug }) => {
   const { servicesPage } = data;
   const filteredServices = servicesPage.filter((item) =>
     item.slug.includes(slug),
@@ -40,4 +40,4 @@ const Service = ({ slug }) => {
   );
 };
 
-export default Service;
+export default Services;

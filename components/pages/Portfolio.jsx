@@ -13,7 +13,7 @@ export default function PortfolioPage() {
             <div key={index}>
               <Link href={url} target="_blank">
                 <Image
-                  className="mb-2 h-72 w-full rounded object-cover transition-all hover:scale-105 lg:h-52"
+                  className="mb-2 h-72 w-full rounded-xl object-cover shadow transition-all hover:scale-105 lg:h-52"
                   src={image}
                   alt="street"
                   width={1024}

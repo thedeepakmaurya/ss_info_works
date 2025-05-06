@@ -5,16 +5,16 @@ const VisionMission = () => {
     <section className="container space-y-10">
       {/* our Vision */}
       <div>
-        <div className="mb-10 text-center">
+        <div className="pb-10 text-center">
           <h5>Our Vision</h5>
           <h2>
             Empowering the digital future, <br /> one solution at a time
           </h2>
         </div>
-        <div className="grid gap-6 lg:grid-cols-2">
+        <div className="grid gap-10 lg:grid-cols-2">
           <div>
             <Image
-              className="h-80 rounded object-cover"
+              className="h-80 shadow rounded-xl object-cover"
               src="/img/banner/vision.webp"
               alt="vision"
               width={600}
@@ -29,7 +29,7 @@ const VisionMission = () => {
               investing in a growing team of makers, doers, and thinkers who
               live at the bleeding edge of technology, we plan to bring
               tomorrow's solutions to life today. By forging long-term
-              collaborative partnerships with clients grounded in transparency
+              collaborative partnerships with clients grounded-xl in transparency
               and trust, we will work tirelessly to understand needs, users and
               markets on a deeper level that informs tailored solutions
               perfectly aligned to diverse business goals. Leveraging the latest
@@ -53,10 +53,10 @@ const VisionMission = () => {
             Driven by innovation, Focused <br /> on your success
           </h2>
         </div>
-        <div className="grid gap-6 lg:grid-cols-2">
+        <div className="grid gap-10 lg:grid-cols-2">
           <div>
             <Image
-              className="h-80 rounded object-cover"
+              className="h-80 shadow rounded-xl object-cover"
               src="/img/banner/mission.webp"
               alt="mission"
               width={600}

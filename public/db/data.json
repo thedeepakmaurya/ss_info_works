@@ -10,25 +10,7 @@
     },
     {
       "label": "services",
-      "route": "#",
-      "subMenu": [
-        {
-          "label": "android development",
-          "route": "/services/android-development"
-        },
-        {
-          "label": "website development",
-          "route": "/services/website-development"
-        },
-        {
-          "label": "IOS development",
-          "route": "/services/ios-development"
-        },
-        {
-          "label": "seo services",
-          "route": "/services/seo-services"
-        }
-      ]
+      "route": "/services"
     },
     {
       "label": "portfolio",
@@ -258,30 +240,40 @@
   "services": [
     {
       "title": "Web Development / Design",
-      "description": "Our customized web design and developing programming generates distinct, technologically advanced websites that feel  as the partners we have the privilege to serve..."
+      "description": "Crafts engaging, user friendly websites",
+      "highlights": ["Landing Page", "Website ", "One Page"]
     },
     {
-      "title": "Android & IOS Application",
-      "description": "Our mobile development specializes in translating the essence of companies into signature IOS and Android apps elevated by personalized designs, features, and app store optimization..."
+      "title": "Android & iOS Development",
+      "description": "Builds high-performance, cross-platform mobile apps",
+      "highlights": ["Android App", "iOS App", "Cross-Platform"]
     },
     {
       "title": "SEO/SMO & Marketing",
-      "description": "We craft data-backed digital marketing strategies uniquely tailored to elevate brands visibility and cultivate connections through customized SEO, SMO, and targeted ad campaigns..."
+      "description": "Boosts online visibility and engagement across platforms",
+      "highlights": [
+        "SEO Optimization",
+        "Social Media Marketing",
+        "Digital Campaigns"
+      ]
     },
     {
       "title": "Digital Marketing",
-      "description": "We boost brands differentiation with digital marketing roadmaps as bespoke as our clients, leveraging analytics to inform campaign tailoring around demographics, behaviors, and preferences of their dream customers."
+      "description": "Drives growth through data-driven online marketing strategies",
+      "highlights": ["Email Marketing", "PPC Advertising", "Content Strategy"]
     },
     {
-      "title": "Customize Software Development",
-      "description": "We deliver bespoke software solutions by aligning technical possibilities with precise business objectives through collaboration, analysis, and tailored programming for frictionless interoperability..."
+      "title": "Custom Software Development",
+      "description": "Delivers tailored software solutions to meet unique business needs",
+      "highlights": ["Enterprise Software", "CRM Systems", "Custom Tools"]
     },
     {
       "title": "MLM Software Development",
-      "description": "We develop unified MLM software ecosystems as specialized as our clients by integrating backend inventory/order tracking with customized consultant office suites, mobile apps and replicable sales funnels"
+      "description": "Develops scalable and secure MLM platforms for business growth",
+      "highlights": ["Binary Plan", "Unilevel Plan", "E-Wallet Integration"]
     }
   ],
-  "testimonial": [
+  "testimonials": [
     {
       "img": "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg",
       "title": "David",
@@ -372,6 +364,38 @@
         "We are the advanced Android App Development service providers in Delhi . In fact, our service does not stop once your app goes live. We do post-launch support to handle all updates, maintenance, and improvements that will have to be done on the app. Be it new features, performance optimization, or bug fixes, our team is always ready to ensure that your app keeps delivering its value to your users. We understand very well that getting your app to market as fast as possible without compromising quality is important.",
         "Choose us for all the needs of your Android App Development service in India . By utilizing our lineated development process combined with Agile approaches, we are able to provide your app more quickly to give you an edge over your competition. We closely work with you in every stage from concept through deployment to make sure your app meets the expectations and is ready for launching on time. Our design philosophy is to make interfaces alluring, user-friendly, and engaging for the users. So, we stress UI/UX design to make sure your app is functional and at the same time catchy for users to come for more, increasing customer retention or brand loyalty."
       ]
+    }
+  ],
+  "features": [
+    {
+      "icon": "CiBookmarkCheck",
+      "title": "Proven Expertise",
+      "description": "Our team brings years of experience across multiple industries, delivering innovative and reliable solutions that drive real results."
+    },
+    {
+      "icon": "CiLight",
+      "title": "Tailored Solutions",
+      "description": "We don’t believe in one-size-fits-all. Every solution is customized to fit your unique goals, challenges, and future vision."
+    },
+    {
+      "icon": "CiHeart",
+      "title": "End-to-End Support",
+      "description": "From initial consultation to deployment and beyond, we’re with you at every step—offering strategic guidance and technical support."
+    },
+    {
+      "icon": "CiRead",
+      "title": "Cutting-Edge Technology",
+      "description": "We stay ahead of the curve, leveraging the latest tools, frameworks, and trends to keep your business future-ready."
+    },
+    {
+      "icon": "CiVolumeHigh",
+      "title": "Transparent Communication",
+      "description": "We build strong partnerships through open, honest, and timely communication—keeping you informed and involved throughout the project lifecycle."
+    },
+    {
+      "icon": "CiUser",
+      "title": "Client-Centric Approach:",
+      "description": "Your success is our priority. We listen, we adapt, and we deliver beyond expectations."
     }
   ]
 }

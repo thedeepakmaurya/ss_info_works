@@ -9,7 +9,7 @@ const ContactForm = () => {
           Name
         </label>
         <input
-          className="w-full rounded border border-gray-200 p-2  text-gray-600 focus:border-0 focus:outline-1 focus:outline-blue-200"
+          className="w-full rounded-xl border border-gray-200 p-2  text-gray-600 focus:border-0 focus:outline-1 focus:outline-blue-200"
           type="text"
           id="name"
           name="name"
@@ -24,7 +24,7 @@ const ContactForm = () => {
           Email
         </label>
         <input
-          className="w-full rounded border border-gray-200 p-2  text-gray-600 focus:border-0 focus:outline-1 focus:outline-blue-200"
+          className="w-full rounded-xl border border-gray-200 p-2  text-gray-600 focus:border-0 focus:outline-1 focus:outline-blue-200"
           type="email"
           id="email"
           name="email"
@@ -39,7 +39,7 @@ const ContactForm = () => {
           Phone
         </label>
         <input
-          className="w-full rounded border border-gray-200 p-2  text-gray-600 focus:border-0 focus:outline-1 focus:outline-blue-200"
+          className="w-full rounded-xl border border-gray-200 p-2  text-gray-600 focus:border-0 focus:outline-1 focus:outline-blue-200"
           type="number"
           id="phone"
           name="phone"
@@ -54,7 +54,7 @@ const ContactForm = () => {
           Service
         </label>
         <select
-          className="w-full appearance-none rounded border border-gray-200 p-2  text-gray-600 focus:border-0 focus:outline-1 focus:outline-blue-200"
+          className="w-full appearance-none rounded-xl border border-gray-200 p-2  text-gray-600 focus:border-0 focus:outline-1 focus:outline-blue-200"
           name="service"
           id="service"
         >
@@ -75,14 +75,14 @@ const ContactForm = () => {
           Message
         </label>
         <textarea
-          className="h-24 w-full rounded border border-gray-200 p-2  text-gray-600 focus:border-0 focus:outline-1 focus:outline-blue-200"
+          className="h-24 w-full rounded-xl border border-gray-200 p-2  text-gray-600 focus:border-0 focus:outline-1 focus:outline-blue-200"
           id="message"
           name="message"
           required
         ></textarea>
       </div>
       <button
-        className="w-full cursor-pointer rounded bg-gradient-to-r from-orange-400 to-blue-400 to-50% px-4 py-1.5 text-white transition-all duration-300 ease-in-out hover:scale-105"
+        className="w-full cursor-pointer rounded-full bg-gradient-to-r from-orange-400 to-blue-400 to-50% px-4 py-1.5 text-white transition-all duration-300 ease-in-out hover:scale-105"
         type="submit"
       >
         Send Message
