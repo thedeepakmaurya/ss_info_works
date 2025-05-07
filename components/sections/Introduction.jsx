@@ -5,11 +5,14 @@ import Heading from "../ui/Heading";
 const Introduction = () => {
   return (
     <section className="container">
-      <Heading title={'About Company'} description={'Application & Wesite Development Company'} />
-      <div className="grid gap-6 lg:gap-10 lg:grid-cols-2">
+      <Heading
+        title={"About Company"}
+        description={"Application & Wesite Development Company"}
+      />
+      <div className="grid gap-6 lg:grid-cols-2 lg:gap-10">
         <div className="h-80 w-full lg:h-[460px]">
           <Image
-            className="h-full w-full rounded-xl shadow object-cover"
+            className="h-full w-full rounded-xl object-cover shadow"
             src="/img/banner/web_development.webp"
             alt="works"
             width={600}

@@ -4,13 +4,12 @@ import Heading from "../ui/Heading";
 const VisionMission = () => {
   return (
     <section className="container space-y-14">
-      {/* our Vision */}
       <div>
         <Heading
           title={"Our Vision"}
           description={"Empowering the digital future, one solution at a time"}
         />
-        <div className="grid gap-6 lg:gap-10 lg:grid-cols-2">
+        <div className="grid gap-6 lg:grid-cols-2 lg:gap-10">
           <div>
             <Image
               className="h-80 rounded-xl object-cover shadow"
@@ -44,13 +43,12 @@ const VisionMission = () => {
           </div>
         </div>
       </div>
-      {/* our mission */}
       <div>
         <Heading
           title={"Our Mission"}
           description={"Driven by innovation, Focused on your success"}
         />
-        <div className="grid gap-6 lg:gap-10 lg:grid-cols-2">
+        <div className="grid gap-6 lg:grid-cols-2 lg:gap-10">
           <div>
             <Image
               className="h-80 rounded-xl object-cover shadow"

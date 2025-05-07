@@ -19,7 +19,7 @@ const ContactDetail = () => {
 
         <div>
           <h4>Chat to us</h4>
-          <p className="text-sm  text-gray-600">
+          <p className="text-sm text-gray-600">
             Our friendly team is here to help
           </p>
           <p>

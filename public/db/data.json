@@ -74,26 +74,26 @@
     }
   ],
   "slides": [
-   {
-    "tagline": "Powering Your Digital Presence, Seamlessly",
-    "img": "https://images.pexels.com/photos/8463135/pexels-photo-8463135.jpeg"
-   },
-   {
-    "tagline": "Reliable, Scalable, Future-Ready Web Solutions",
-    "img": "https://images.pexels.com/photos/7988666/pexels-photo-7988666.jpeg"
-   },
-   {
-    "tagline": "Your Vision, Our Code",
-    "img": "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg"
-   },
-   {
-    "tagline": "Building the Web, One Pixel at a Time",
-    "img": "https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg"
-   },
-   {
-    "tagline": "From Concept to Launch – We’ve Got You Covered",
-    "img": "https://images.pexels.com/photos/225502/pexels-photo-225502.jpeg"
-   }
+    {
+      "tagline": "Powering Your Digital Presence, Seamlessly",
+      "img": "/img/slides/1.jpeg"
+    },
+    {
+      "tagline": "Reliable, Scalable, Future-Ready Web Solutions",
+      "img": "/img/slides/2.jpeg"
+    },
+    {
+      "tagline": "Your Vision, Our Code",
+      "img": "/img/slides/3.jpeg"
+    },
+    {
+      "tagline": "Building the Web, One Pixel at a Time",
+      "img": "/img/slides/4.jpeg"
+    },
+    {
+      "tagline": "From Concept to Launch – We’ve Got You Covered",
+      "img": "/img/slides/5.jpeg"
+    }
   ],
   "pricing": [
     {

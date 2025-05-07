@@ -9,7 +9,7 @@ export default function HomePage() {
   const { services, testimonials, features } = data;
 
   return (
-    <main className="pb-5 overflow-hidden">
+    <main className="overflow-hidden pb-5">
       <HeroSlider />
       <Introduction />
       <OurServices services={services} />

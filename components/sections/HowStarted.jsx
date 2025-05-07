@@ -12,15 +12,12 @@ const HowStarted = ({ stat }) => {
 
   return (
     <section className="container">
-      {/* heading */}
       <Heading
         title={"How it started"}
         description={"Empowering the World Through Digital Innovation"}
       />
-      {/* content container */}
-      <div className="grid gap-10 lg:grid-cols-2">
-        {/* about */}
-        <div className="row-span-2 space-y-4">
+      <div className="grid gap-6 lg:grid-cols-2 lg:gap-10">
+        <div className="order-2 row-span-2 space-y-4 lg:order-1">
           <p>
             “<strong>At Ss Infoworks Technology</strong>, we are driven by a
             passion for technology and innovation. Founded with the vision to
@@ -49,8 +46,7 @@ const HowStarted = ({ stat }) => {
             Infoworks promise.”
           </p>
         </div>
-        {/* about image */}
-        <div className="h-48">
+        <div className="order-1 h-48 lg:order-2">
           <Image
             className="h-full rounded-xl object-cover shadow"
             src="/img/banner/digital_innovation.jpg"
@@ -59,9 +55,8 @@ const HowStarted = ({ stat }) => {
             height={600}
           />
         </div>
-        {/* stats */}
-        <div className="grid grid-cols-2 gap-4">
-          {stat.map(({ title, value, icon }, index) => {
+        <div className="order-3 grid grid-cols-2 gap-4 lg:order-3">
+          {stat?.map(({ title, value, icon }, index) => {
             const Icon = icons[icon];
             return (
               <div

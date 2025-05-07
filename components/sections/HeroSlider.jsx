@@ -39,7 +39,7 @@ const HeroSlider = () => {
                 }}
               >
                 <div className="flex-1">
-                  <div className="flex flex-col gap-4 h-full items-center justify-center">
+                  <div className="flex h-full flex-col items-center justify-center gap-4">
                     <h1 className="text-center text-4xl font-extrabold lg:w-[70%] lg:text-6xl">
                       {tagline}
                     </h1>

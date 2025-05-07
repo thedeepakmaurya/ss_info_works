@@ -112,7 +112,11 @@ export default function Header() {
             aria-expanded={isMenuOpen}
             className="lg:hidden"
           >
-            {isMenuOpen ? <IoCloseOutline size={28} /> : <IoIosMenu size={28} />}
+            {isMenuOpen ? (
+              <IoCloseOutline size={28} />
+            ) : (
+              <IoIosMenu size={28} />
+            )}
           </button>
         </div>
       </div>
