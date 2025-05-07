@@ -1,10 +1,9 @@
+import Heading from "../ui/Heading";
+
 const OurServices = ({ services }) => {
   return (
     <section className="container">
-      <div className="mb-10 text-center">
-        <h5>Our Services</h5>
-        <h2>Our Best Services</h2>
-      </div>
+      <Heading title={'Our Services'} description={'Our Best Services'} />
       <div className="grid gap-6 lg:grid-cols-4">
         {services?.map(({ title, description, highlights }, index) => {
           return (

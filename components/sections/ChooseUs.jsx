@@ -6,6 +6,7 @@ import {
   CiVolumeHigh,
   CiUser,
 } from "react-icons/ci";
+import Heading from "../ui/Heading";
 
 const ChooseUs = ({ features }) => {
   const icons = {
@@ -19,12 +20,10 @@ const ChooseUs = ({ features }) => {
 
   return (
     <section className="container">
-      <div className="mb-10 text-center">
-        <h5>Why Choose Us</h5>
-        <h2>
-          We Execute Our Ideas from <br /> Start to Finish
-        </h2>
-      </div>
+      <Heading
+        title={"Why Choose Us"}
+        description={"We Execute Our Ideas from  Start to Finish"}
+      />
       <div className="grid gap-4 lg:grid-cols-2">
         {features?.map(({ title, description, icon }, index) => {
           const Icon = icons[icon];

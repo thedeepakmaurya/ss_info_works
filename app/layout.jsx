@@ -1,6 +1,5 @@
 import MainLayout from "@/components/layout/MainLayout";
 import "./globals.css";
-import "remixicon/fonts/remixicon.css";
 import { Urbanist } from "next/font/google";
 
 const urbanist = Urbanist({

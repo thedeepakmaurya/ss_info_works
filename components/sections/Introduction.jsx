@@ -1,15 +1,11 @@
 import Image from "next/image";
 import Button from "../ui/Button";
+import Heading from "../ui/Heading";
 
 const Introduction = () => {
   return (
     <section className="container">
-      <div className="mb-10 text-center">
-        <h5>About Company</h5>
-        <h2 className="mb-6 text-3xl lg:mb-16 lg:text-4xl">
-          Application & Wesite <br /> Development Company
-        </h2>
-      </div>
+      <Heading title={'About Company'} description={'Application & Wesite Development Company'} />
       <div className="grid gap-6 lg:gap-10 lg:grid-cols-2">
         <div className="h-80 w-full lg:h-[460px]">
           <Image

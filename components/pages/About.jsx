@@ -8,10 +8,10 @@ import VisionMission from "../sections/VisionMission";
 export default function About() {
   const { stat, team } = data;
   return (
-    <>
+    <main className="pb-5">
       <HowStarted stat={stat} />
       <OurTeam team={team} />
       <VisionMission />
-    </>
+    </main>
   );
 }

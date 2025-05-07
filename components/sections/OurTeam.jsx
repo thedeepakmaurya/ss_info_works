@@ -1,22 +1,23 @@
 import Image from "next/image";
 import Link from "next/link";
+import Heading from "../ui/Heading";
 
 const OurTeam = ({ team }) => {
   return (
-    <section className="container"> 
-      <div className="text-center mb-6 lg:mb-12">
-        <h5>Meet the Team</h5>
-        <h2>
-          Meet our dedicated team
-          <br /> of developers.
-        </h2>
-      </div>
-      <div className="grid gap-8 place-items-center lg:grid-cols-4">
+    <section className="container">
+      <Heading
+        title={"Meet the Team"}
+        description={"Meet our dedicated team of developers."}
+      />
+      <div className="grid place-items-center gap-8 lg:grid-cols-4">
         {team.map(({ name, position, image, linkedin }, index) => {
           return (
-            <div key={index} className="relative flex h-96  lg:h-80 justify-center">
+            <div
+              key={index}
+              className="relative flex h-96 justify-center lg:h-80"
+            >
               <Image
-                className="h-full rounded-xl shadow object-cover"
+                className="h-full rounded-xl object-cover shadow"
                 src={image}
                 alt="member"
                 width={1000}

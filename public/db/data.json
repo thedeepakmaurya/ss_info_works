@@ -73,6 +73,28 @@
       ]
     }
   ],
+  "slides": [
+   {
+    "tagline": "Powering Your Digital Presence, Seamlessly",
+    "img": "https://images.pexels.com/photos/8463135/pexels-photo-8463135.jpeg"
+   },
+   {
+    "tagline": "Reliable, Scalable, Future-Ready Web Solutions",
+    "img": "https://images.pexels.com/photos/7988666/pexels-photo-7988666.jpeg"
+   },
+   {
+    "tagline": "Your Vision, Our Code",
+    "img": "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg"
+   },
+   {
+    "tagline": "Building the Web, One Pixel at a Time",
+    "img": "https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg"
+   },
+   {
+    "tagline": "From Concept to Launch – We’ve Got You Covered",
+    "img": "https://images.pexels.com/photos/225502/pexels-photo-225502.jpeg"
+   }
+  ],
   "pricing": [
     {
       "title": "STATIC WEBSITE",
@@ -274,96 +296,41 @@
     }
   ],
   "testimonials": [
-  {
-    "img": "https://images.pexels.com/photos/3184405/pexels-photo-3184405.jpeg",
-    "title": "Sarah Bennett",
-    "designation": "Marketing Director",
-    "description": "Their web development team revamped our online presence. Traffic jumped 40% within a month, and the UX is outstanding. Highly recommended!"
-  },
-  {
-    "img": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg",
-    "title": "James Patel",
-    "designation": "Product Manager",
-    "description": "The custom CMS they built for us is incredibly intuitive. It reduced our content publishing time by 70%. Excellent support too!"
-  },
-  {
-    "img": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg",
-    "title": "Linda Gomez",
-    "designation": "Startup Founder",
-    "description": "We needed a fast, secure, and modern landing page—and they delivered beyond expectations. Clean code, great SEO, and it loads instantly."
-  },
-  {
-    "img": "https://images.pexels.com/photos/1181695/pexels-photo-1181695.jpeg",
-    "title": "Tom Harrison",
-    "designation": "CTO, FinTech Co.",
-    "description": "From backend API integration to frontend polish, their team nailed it. Performance is flawless and security is top-notch."
-  },
-  {
-    "img": "https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg",
-    "title": "Emily Tran",
-    "designation": "E-commerce Manager",
-    "description": "They migrated our entire shop to a new platform seamlessly. Sales are up, and the checkout process is buttery smooth."
-  },
-  {
-    "img": "https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg",
-    "title": "Alex Kim",
-    "designation": "SEO Consultant",
-    "description": "Working with their SEO team was a game-changer. Our site now ranks on page 1 for all our key terms, and conversions are up 3x."
-  }
-],
-  "servicesPage": [
     {
-      "slug": "android-development",
-      "title": "Android App Development Services",
-      "img": "https://images.pexels.com/photos/17781649/pexels-photo-17781649/free-photo-of-man-looking-at-the-stock-charts-on-the-phone-and-tablet.jpeg",
-      "technologies": ["flutter", "react native", "kotlin", "swift"],
-      "paragraph": [
-        "SG Web App is the quality Android App Development service in Delhi. With us, you choose a partner that is all about providing excellence in each and every single aspect of the Android application development process you go with us. We create perfectly balanced technical expertise, innovative design, and a customer-focused approach that helps to outshine competitors. Applications but solutions for your business to grow, engage, and be successful in today's competitive digital world.",
-        "We are the advanced Android App Development service providers in Delhi . In fact, our service does not stop once your app goes live. We do post-launch support to handle all updates, maintenance, and improvements that will have to be done on the app. Be it new features, performance optimization, or bug fixes, our team is always ready to ensure that your app keeps delivering its value to your users. We understand very well that getting your app to market as fast as possible without compromising quality is important.",
-        "Choose us for all the needs of your Android App Development service in India . By utilizing our lineated development process combined with Agile approaches, we are able to provide your app more quickly to give you an edge over your competition. We closely work with you in every stage from concept through deployment to make sure your app meets the expectations and is ready for launching on time. Our design philosophy is to make interfaces alluring, user-friendly, and engaging for the users. So, we stress UI/UX design to make sure your app is functional and at the same time catchy for users to come for more, increasing customer retention or brand loyalty."
-      ]
+      "img": "/img/testimonial/anjali_srivastava.webp",
+      "title": "Anjali Srivastava",
+      "designation": "Marketing Director",
+      "description": "Their web development team revamped our online presence. Traffic jumped 40% within a month, and the UX is outstanding. Highly recommended!"
     },
     {
-      "slug": "website-development",
-      "title": "Website Development Services",
-      "img": "https://images.pexels.com/photos/38519/macbook-laptop-ipad-apple-38519.jpeg",
-      "technologies": [
-        "React Js",
-        "Next Js",
-        "Angular",
-        "Vue Js",
-        "Node Js",
-        "Express Js",
-        "Mongo DB"
-      ],
-
-      "paragraph": [
-        "SG Web App is the quality Android App Development service in Delhi. With us, you choose a partner that is all about providing excellence in each and every single aspect of the Android application development process you go with us. We create perfectly balanced technical expertise, innovative design, and a customer-focused approach that helps to outshine competitors. Applications but solutions for your business to grow, engage, and be successful in today's competitive digital world.",
-        "We are the advanced Android App Development service providers in Delhi . In fact, our service does not stop once your app goes live. We do post-launch support to handle all updates, maintenance, and improvements that will have to be done on the app. Be it new features, performance optimization, or bug fixes, our team is always ready to ensure that your app keeps delivering its value to your users. We understand very well that getting your app to market as fast as possible without compromising quality is important.",
-        "Choose us for all the needs of your Android App Development service in India . By utilizing our lineated development process combined with Agile approaches, we are able to provide your app more quickly to give you an edge over your competition. We closely work with you in every stage from concept through deployment to make sure your app meets the expectations and is ready for launching on time. Our design philosophy is to make interfaces alluring, user-friendly, and engaging for the users. So, we stress UI/UX design to make sure your app is functional and at the same time catchy for users to come for more, increasing customer retention or brand loyalty."
-      ]
+      "img": "/img/testimonial/arjun_maurya.jpeg",
+      "title": "Arjun Maurya",
+      "designation": "Product Manager",
+      "description": "The custom CMS they built for us is incredibly intuitive. It reduced our content publishing time by 70%. Excellent support too!"
     },
     {
-      "slug": "ios-development",
-      "title": "IOS Development Services",
-      "img": "https://images.pexels.com/photos/7213504/pexels-photo-7213504.jpeg",
-      "technologies": ["flutter", "react native", "kotlin", "swift"],
-      "paragraph": [
-        "SG Web App is the quality Android App Development service in Delhi. With us, you choose a partner that is all about providing excellence in each and every single aspect of the Android application development process you go with us. We create perfectly balanced technical expertise, innovative design, and a customer-focused approach that helps to outshine competitors. Applications but solutions for your business to grow, engage, and be successful in today's competitive digital world.",
-        "We are the advanced Android App Development service providers in Delhi . In fact, our service does not stop once your app goes live. We do post-launch support to handle all updates, maintenance, and improvements that will have to be done on the app. Be it new features, performance optimization, or bug fixes, our team is always ready to ensure that your app keeps delivering its value to your users. We understand very well that getting your app to market as fast as possible without compromising quality is important.",
-        "Choose us for all the needs of your Android App Development service in India . By utilizing our lineated development process combined with Agile approaches, we are able to provide your app more quickly to give you an edge over your competition. We closely work with you in every stage from concept through deployment to make sure your app meets the expectations and is ready for launching on time. Our design philosophy is to make interfaces alluring, user-friendly, and engaging for the users. So, we stress UI/UX design to make sure your app is functional and at the same time catchy for users to come for more, increasing customer retention or brand loyalty."
-      ]
+      "img": "/img/testimonial/akash_prajapati.webp",
+      "title": "Akash Prajapati",
+      "designation": "Startup Founder",
+      "description": "We needed a fast, secure, and modern landing page—and they delivered beyond expectations. Clean code, great SEO, and it loads instantly."
     },
     {
-      "slug": "seo-services",
-      "title": "SEO Services",
-      "img": "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg",
-      "technologies": ["Google Analytics", "SEMrush", "Ahrefs", "moz"],
-      "paragraph": [
-        "SG Web App is the quality Android App Development service in Delhi. With us, you choose a partner that is all about providing excellence in each and every single aspect of the Android application development process you go with us. We create perfectly balanced technical expertise, innovative design, and a customer-focused approach that helps to outshine competitors. Applications but solutions for your business to grow, engage, and be successful in today's competitive digital world.",
-        "We are the advanced Android App Development service providers in Delhi . In fact, our service does not stop once your app goes live. We do post-launch support to handle all updates, maintenance, and improvements that will have to be done on the app. Be it new features, performance optimization, or bug fixes, our team is always ready to ensure that your app keeps delivering its value to your users. We understand very well that getting your app to market as fast as possible without compromising quality is important.",
-        "Choose us for all the needs of your Android App Development service in India . By utilizing our lineated development process combined with Agile approaches, we are able to provide your app more quickly to give you an edge over your competition. We closely work with you in every stage from concept through deployment to make sure your app meets the expectations and is ready for launching on time. Our design philosophy is to make interfaces alluring, user-friendly, and engaging for the users. So, we stress UI/UX design to make sure your app is functional and at the same time catchy for users to come for more, increasing customer retention or brand loyalty."
-      ]
+      "img": "/img/testimonial/simran_tomar.webp",
+      "title": "Simran Tomar",
+      "designation": "CTO, FinTech Co.",
+      "description": "From backend API integration to frontend polish, their team nailed it. Performance is flawless and security is top-notch."
+    },
+    {
+      "img": "/img/testimonial/pradeep_nair.webp",
+      "title": "Pradeep Nair",
+      "designation": "E-commerce Manager",
+      "description": "They migrated our entire shop to a new platform seamlessly. Sales are up, and the checkout process is buttery smooth."
+    },
+    {
+      "img": "/img/testimonial/santosh_basu.webp",
+      "title": "Santosh Basu",
+      "designation": "SEO Consultant",
+      "description": "Working with their SEO team was a game-changer. Our site now ranks on page 1 for all our key terms, and conversions are up 3x."
     }
   ],
   "features": [
