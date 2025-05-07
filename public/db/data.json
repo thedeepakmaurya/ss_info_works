@@ -274,43 +274,43 @@
     }
   ],
   "testimonials": [
-    {
-      "img": "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg",
-      "title": "David",
-      "designation": "Project Manager",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,facilis iusto aliquid nemo nam, eum debitis, voluptate corrupti veniam in voluptatum sint aspernatur vel commodi! Consequuntur molestiae dignissimos praesentium pariatur?"
-    },
-    {
-      "img": "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg",
-      "title": "David",
-      "designation": "Project Manager",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,facilis iusto aliquid nemo nam, eum debitis, voluptate corrupti veniam in voluptatum sint aspernatur vel commodi! Consequuntur molestiae dignissimos praesentium pariatur?"
-    },
-    {
-      "img": "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg",
-      "title": "David",
-      "designation": "Project Manager",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,facilis iusto aliquid nemo nam, eum debitis, voluptate corrupti veniam in voluptatum sint aspernatur vel commodi! Consequuntur molestiae dignissimos praesentium pariatur?"
-    },
-    {
-      "img": "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg",
-      "title": "David",
-      "designation": "Project Manager",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,facilis iusto aliquid nemo nam, eum debitis, voluptate corrupti veniam in voluptatum sint aspernatur vel commodi! Consequuntur molestiae dignissimos praesentium pariatur?"
-    },
-    {
-      "img": "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg",
-      "title": "David",
-      "designation": "Project Manager",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,facilis iusto aliquid nemo nam, eum debitis, voluptate corrupti veniam in voluptatum sint aspernatur vel commodi! Consequuntur molestiae dignissimos praesentium pariatur?"
-    },
-    {
-      "img": "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg",
-      "title": "David",
-      "designation": "Project Manager",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,facilis iusto aliquid nemo nam, eum debitis, voluptate corrupti veniam in voluptatum sint aspernatur vel commodi! Consequuntur molestiae dignissimos praesentium pariatur?"
-    }
-  ],
+  {
+    "img": "https://images.pexels.com/photos/3184405/pexels-photo-3184405.jpeg",
+    "title": "Sarah Bennett",
+    "designation": "Marketing Director",
+    "description": "Their web development team revamped our online presence. Traffic jumped 40% within a month, and the UX is outstanding. Highly recommended!"
+  },
+  {
+    "img": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg",
+    "title": "James Patel",
+    "designation": "Product Manager",
+    "description": "The custom CMS they built for us is incredibly intuitive. It reduced our content publishing time by 70%. Excellent support too!"
+  },
+  {
+    "img": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg",
+    "title": "Linda Gomez",
+    "designation": "Startup Founder",
+    "description": "We needed a fast, secure, and modern landing page—and they delivered beyond expectations. Clean code, great SEO, and it loads instantly."
+  },
+  {
+    "img": "https://images.pexels.com/photos/1181695/pexels-photo-1181695.jpeg",
+    "title": "Tom Harrison",
+    "designation": "CTO, FinTech Co.",
+    "description": "From backend API integration to frontend polish, their team nailed it. Performance is flawless and security is top-notch."
+  },
+  {
+    "img": "https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg",
+    "title": "Emily Tran",
+    "designation": "E-commerce Manager",
+    "description": "They migrated our entire shop to a new platform seamlessly. Sales are up, and the checkout process is buttery smooth."
+  },
+  {
+    "img": "https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg",
+    "title": "Alex Kim",
+    "designation": "SEO Consultant",
+    "description": "Working with their SEO team was a game-changer. Our site now ranks on page 1 for all our key terms, and conversions are up 3x."
+  }
+],
   "servicesPage": [
     {
       "slug": "android-development",

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const VisionMission = () => {
   return (
-    <section className="container space-y-10">
+    <section className="container space-y-14">
       {/* our Vision */}
       <div>
         <div className="pb-10 text-center">
