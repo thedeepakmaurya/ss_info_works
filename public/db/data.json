@@ -44,10 +44,6 @@
         {
           "label": "terms of service",
           "route": "/terms-of-service"
-        },
-        {
-          "label": "refund policy",
-          "route": "/refund-policy"
         }
       ]
     },

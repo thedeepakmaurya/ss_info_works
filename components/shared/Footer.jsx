@@ -73,7 +73,7 @@ export default function Footer() {
         </div>
         <div className="space-x-2 border-t py-4 text-center text-sm">
           <span>
-            &copy; {currYear}
+            &copy; 2021 - {currYear}
             <Link className="border-b" href="#">
               {" "}
               SS Infoworks Technology

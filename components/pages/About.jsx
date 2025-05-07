@@ -1,6 +1,4 @@
-import Image from "next/image";
 import data from "../../public/db/data.json";
-import Link from "next/link";
 import HowStarted from "../sections/HowStarted";
 import OurTeam from "../sections/OurTeam";
 import VisionMission from "../sections/VisionMission";

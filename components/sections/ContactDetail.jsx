@@ -30,7 +30,7 @@ const ContactDetail = () => {
         </div>
       </div>
       <div className="flex gap-3">
-        <CiPhone className="shrink-0" size={32} />
+        <CiPhone className="shrink-0" size={24} />
         <div>
           <h4>Call us</h4>
           <p className="text-sm text-gray-600">Mon-Fri from 8am to 5pm</p>
