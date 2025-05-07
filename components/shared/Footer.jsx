@@ -21,16 +21,16 @@ export default function Footer() {
             <h5>For Sales</h5>
             <ul className="mb-4">
               <li>
-                <Link href="+918882425881">+91 88824 25881</Link>
+                <Link href="tel:+918882425881">+91 88824 25881</Link>
               </li>
             </ul>
             <h5>For Support</h5>
             <ul className="mb-4">
               <li>
-                <Link href="+917009080966">+91 70090 80966</Link>
+                <Link href="tel:+917009080966">+91 70090 80966</Link>
               </li>
               <li>
-                <Link href="+919315673606">+91 93156 73606</Link>
+                <Link href="tel:+919315673606">+91 93156 73606</Link>
               </li>
             </ul>
             <h5>Mail ID</h5>

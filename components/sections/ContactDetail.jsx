@@ -36,7 +36,7 @@ const ContactDetail = () => {
           <p className="text-sm text-gray-600">Mon-Fri from 8am to 5pm</p>
           <p>
             <Link href="tel:+918882425881">+91 88824 25881</Link>,
-            <Link href="tel:+91+917009080966"> +91 70090 80966</Link>,
+            <Link href="tel:+917009080966"> +91 70090 80966</Link>,
             <Link href="tel:+919315673606"> +91 93156 73606</Link>
           </p>
         </div>
