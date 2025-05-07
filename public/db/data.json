@@ -56,19 +56,19 @@
       "links": [
         {
           "label": "web development / design",
-          "route": "/web-development"
+          "route": "/services"
         },
         {
           "label": "android development",
-          "route": "/android-development"
+          "route": "/services"
         },
         {
           "label": "ios development",
-          "route": "/ios-development"
+          "route": "/services"
         },
         {
           "label": "seo services",
-          "route": "/seo-services"
+          "route": "/services"
         }
       ]
     }
