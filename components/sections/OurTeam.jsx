@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Heading from "../ui/Heading";
+import { RiLinkedinLine } from "react-icons/ri";
 
 const OurTeam = ({ team }) => {
   return (
@@ -29,7 +30,10 @@ const OurTeam = ({ team }) => {
                   <p className="text-sm">{position}</p>
                 </div>
                 <Link href={linkedin}>
-                  <i className="ri-linkedin-line ri-xl rounded-xl-sm bg-blue-400 p-1 text-white"></i>
+                  <RiLinkedinLine
+                    size={28}
+                    className="rounded bg-blue-400 p-1 text-white"
+                  />
                 </Link>
               </div>
             </div>
