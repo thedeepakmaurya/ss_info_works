@@ -4,10 +4,19 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Link from "next/link";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import data from "@/public/db/data.json";
+import OverlayModal from "../common/modal/OverlayModal";
+import ContactForm from "./ContactForm";
+import PopupForm from "./PopupForm";
 
 const HeroSlider = () => {
+  const [isFormVisible, setIsFormVisible] = useState(false);
+
+  useEffect(() => {
+    setIsFormVisible(true);
+  }, []);
+
   const { slides } = data;
   const sliderRef = useRef(null);
 
@@ -64,6 +73,11 @@ const HeroSlider = () => {
           );
         })}
       </Slider>
+      {isFormVisible && (
+        <OverlayModal
+          content={<PopupForm onClose={() => setIsFormVisible(false)} />}
+        />
+      )}
     </section>
   );
 };
