@@ -5,6 +5,8 @@ import data from "../../public/db/data.json";
 import { usePathname } from "next/navigation";
 import { useState, useMemo } from "react";
 import Button from "../ui/Button";
+import { IoCloseOutline } from "react-icons/io5";
+import { IoIosMenu } from "react-icons/io";
 
 export default function Header() {
   const { navigation } = data;
@@ -110,11 +112,7 @@ export default function Header() {
             aria-expanded={isMenuOpen}
             className="lg:hidden"
           >
-            <i
-              className={`ri-xl text-gray-700 ${
-                isMenuOpen ? "ri-close-large-line" : "ri-menu-3-line"
-              }`}
-            ></i>
+            {isMenuOpen ? <IoCloseOutline size={28} /> : <IoIosMenu size={28} />}
           </button>
         </div>
       </div>

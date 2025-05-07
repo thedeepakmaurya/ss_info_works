@@ -24,7 +24,7 @@ export default function PortfolioPage() {
                   <div className="flex items-center justify-between">
                     <p className="font-medium"> {type}</p>
                     <span>
-                      <IoCodeSlashOutline size={20}  />
+                      <IoCodeSlashOutline size={20} />
                     </span>
                   </div>
                 </Link>

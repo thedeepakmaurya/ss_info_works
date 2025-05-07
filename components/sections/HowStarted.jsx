@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { CiStar, CiUser, CiBookmarkCheck, CiFaceSmile } from "react-icons/ci";
+import Heading from "../ui/Heading";
 
 const HowStarted = ({ stat }) => {
   const icons = {
@@ -12,12 +13,10 @@ const HowStarted = ({ stat }) => {
   return (
     <section className="container">
       {/* heading */}
-      <div className="mb-6 text-center lg:mb-12">
-        <h5>How it started</h5>
-        <h2>
-          Empowering the World Through <br /> Digital Innovation
-        </h2>
-      </div>
+      <Heading
+        title={"How it started"}
+        description={"Empowering the World Through Digital Innovation"}
+      />
       {/* content container */}
       <div className="grid gap-10 lg:grid-cols-2">
         {/* about */}
