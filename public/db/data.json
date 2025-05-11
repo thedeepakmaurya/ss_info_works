@@ -70,19 +70,19 @@
       "links": [
         {
           "label": "web development / design",
-          "route": "/services"
+          "route": "/services/web-development"
         },
         {
           "label": "android development",
-          "route": "/services"
+          "route": "/services/application-development"
         },
         {
-          "label": "ios development",
-          "route": "/services"
+          "label": "digital marketing",
+          "route": "/services/digital-marketing"
         },
         {
           "label": "seo services",
-          "route": "/services"
+          "route": "/services/seo"
         }
       ]
     }
