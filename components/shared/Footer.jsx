@@ -83,7 +83,7 @@ export default function Footer() {
             Design & Developed by
             <Link
               className="border-b"
-              href="www.linkedin.com/in/thedeepakmaurya"
+              href="https://www.linkedin.com/in/thedeepakmaurya"
               target="_blank"
             >
               {" "}

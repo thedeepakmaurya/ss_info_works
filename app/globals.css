@@ -44,4 +44,8 @@
   footer h5 {
     @apply mb-1 text-sm text-white;
   }
+
+  .slick-slider{
+    @apply overflow-hidden
+  }
 }

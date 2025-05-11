@@ -33,7 +33,9 @@ const HeroSlider = () => {
   return (
     <section className="pb-10">
       <Slider ref={sliderRef} {...settings}>
-        {slides?.map((slide, index) => <SliderContainer key={index} {...slide}  />)}
+        {slides?.map((slide, index) => (
+          <SliderContainer key={index} {...slide} />
+        ))}
       </Slider>
       {isFormVisible && (
         <OverlayModal
