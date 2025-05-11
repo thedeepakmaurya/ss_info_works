@@ -1,15 +1,8 @@
 import Image from "next/image";
-import { CiStar, CiUser, CiBookmarkCheck, CiFaceSmile } from "react-icons/ci";
 import Heading from "../ui/Heading";
+import StatCard from "../blocks/StatCard";
 
 const HowStarted = ({ stat }) => {
-  const icons = {
-    CiStar,
-    CiUser,
-    CiBookmarkCheck,
-    CiFaceSmile,
-  };
-
   return (
     <section className="container">
       <Heading
@@ -49,30 +42,16 @@ const HowStarted = ({ stat }) => {
         <div className="order-1 h-48 lg:order-2">
           <Image
             className="h-full rounded-xl object-cover shadow"
-            src="/img/banner/digital_innovation.jpg"
+            src="/img/banner/digital_innovation.webp"
             alt="digital_innovation"
             width={1200}
             height={600}
           />
         </div>
         <div className="order-3 grid grid-cols-2 gap-4 lg:order-3">
-          {stat?.map(({ title, value, icon }, index) => {
-            const Icon = icons[icon];
-            return (
-              <div
-                key={index}
-                className="relative overflow-hidden rounded-xl bg-blue-100 p-6 shadow"
-              >
-                <div>
-                  <h3 className="text-2xl font-bold">{value}</h3>
-                  <p className="capitalize">{title}</p>
-                </div>
-                <div className="absolute top-0 right-0 flex h-14 w-14 items-center justify-center rounded-tr-xl rounded-bl-full bg-blue-400">
-                  {Icon && <Icon size="32" color="white" />}
-                </div>
-              </div>
-            );
-          })}
+          {stat?.map((item, index) => (
+            <StatCard key={index} {...item} />
+          ))}
         </div>
       </div>
     </section>

@@ -1,5 +1,5 @@
 import { IoCloseOutline } from "react-icons/io5";
-import ContactForm from "./ContactForm";
+import ContactForm from "../blocks/ContactForm";
 
 const PopupForm = ({onClose}) => {
   return (

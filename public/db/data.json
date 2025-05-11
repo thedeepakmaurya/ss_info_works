@@ -10,7 +10,25 @@
     },
     {
       "label": "services",
-      "route": "/services"
+      "route": "#",
+      "subMenu": [
+        {
+          "label": "web development",
+          "route": "/services/web-development"
+        },
+        {
+          "label": "application development",
+          "route": "/services/application-development"
+        },
+        {
+          "label": "digital marketing",
+          "route": "/services/digital-marketing"
+        },
+        {
+          "label": "seo service",
+          "route": "/services/seo"
+        }
+      ]
     },
     {
       "label": "portfolio",
@@ -72,23 +90,23 @@
   "slides": [
     {
       "tagline": "Powering Your Digital Presence, Seamlessly",
-      "img": "/img/slides/1.jpeg"
+      "img": "/img/slides/office_1.webp"
     },
     {
       "tagline": "Reliable, Scalable, Future-Ready Web Solutions",
-      "img": "/img/slides/2.jpeg"
+      "img": "/img/slides/office_2.webp"
     },
     {
       "tagline": "Your Vision, Our Code",
-      "img": "/img/slides/3.jpeg"
+      "img": "/img/slides/office_3.webp"
     },
     {
       "tagline": "Building the Web, One Pixel at a Time",
-      "img": "/img/slides/4.jpeg"
+      "img": "/img/slides/office_4.webp"
     },
     {
       "tagline": "From Concept to Launch – We’ve Got You Covered",
-      "img": "/img/slides/5.jpeg"
+      "img": "/img/office_5.webp"
     }
   ],
   "pricing": [
@@ -239,19 +257,19 @@
     {
       "name": "Sachin Mishra",
       "position": "Managing Director",
-      "image": "/img/team/sachin_mishra.jpg",
+      "image": "/img/team/sachin_mishra.webp",
       "linkedin": "#"
     },
     {
       "name": "Simran Vohra",
       "position": "CEO",
-      "image": "/img/team/simran_vohra.jpg",
+      "image": "/img/team/simran_vohra.webp",
       "linkedin": "#"
     },
     {
       "name": "Deepak Maurya",
       "position": "Frontend Developer",
-      "image": "/img/team/deepak_maurya.jpg",
+      "image": "/img/team/deepak_maurya.webp",
       "linkedin": "https://www.linkedin.com/in/thedeepakmaurya/"
     }
   ],
@@ -299,7 +317,7 @@
       "description": "Their web development team revamped our online presence. Traffic jumped 40% within a month, and the UX is outstanding. Highly recommended!"
     },
     {
-      "img": "/img/testimonial/arjun_maurya.jpeg",
+      "img": "/img/testimonial/arjun_maurya.webp",
       "title": "Arjun Maurya",
       "designation": "Product Manager",
       "description": "The custom CMS they built for us is incredibly intuitive. It reduced our content publishing time by 70%. Excellent support too!"
@@ -359,6 +377,69 @@
       "icon": "CiUser",
       "title": "Client-Centric Approach:",
       "description": "Your success is our priority. We listen, we adapt, and we deliver beyond expectations."
+    }
+  ],
+  "servicesbrief": [
+    {
+      "id": "web-development",
+      "title": {
+        "main": "Website",
+        "span": "Development"
+      },
+      "image": "/img/services/web_design.webp",
+      "intro": [
+        "Website designing and development is the process of brainstormingideas, developing a concept, and publishing material on the internet. When creating a website today, you must consider both the functionality of the website and the aesthetics of the website. Other aspects of web design include creating online applications and mobile applications and the result of user interfaces. When creating a website, it is critical to consider both the visual appearance of the site and the functionality it offers. Coordination of these components will allow the facility to operate more efficiently and create more goods and services. Regardless of what profession or industry you wish to work in, Web Designing Company SS Infoworks Technology has web developers and designers who know how to create functional and user-friendly websites.",
+        "Web Design and Website Development Services are widely available to aid you in developing mobile and responsive websites and generate unique e-commerce and intranet experiences using the most up-to-date and proven web technologies. Consumers are increasingly basing their purchasing decisions on their online experience, thanks to the increasing number of people who browse a company or service provider's website before making a purchase."
+      ]
+    },
+    {
+      "id": "application-development",
+      "title": {
+        "main": "Application",
+        "span": "Development"
+      },
+      "image": "/img/services/application_development.webp",
+      "intro": [
+        "Mobile Application Designing and Development for Android and IOS services help to build apps for iOS and Android devices. SS Infoworks Technology has been in this industry since 2009 and is the firm that provides app design for iOS & Android services in the most effective manner. You have developed a mobile application, but you are unsure of the best way to market and advertise it successfully. We understand your vision and will work with you to achieve it through the application of intelligent marketing tactics and strategies to your business. Preparation is essential for mobile application marketing, and we are here to assist you in establishing your strategy and putting your strategy into action. SS Infoworks Technology is a prominent mobile app development company that provides a comprehensive variety of mobile application development services to clients all over the world.",
+        "The fact that the developer and their vision of the mobile application should match the division of the brand on which they are working on the mobile application is what it all boils down to, whether it is about mobile application development for an Android smartphone or an iPhone with iOS as their primary software, it all comes down to one thing. In addition, the creation of hybrid applications is being pursued."
+      ]
+    },
+    {
+      "id": "digital-marketing",
+      "title": {
+        "main": "Digital",
+        "span": "Marketing"
+      },
+      "image": "/img/services/digital_marketing.webp",
+      "intro": [
+        "The SS Infoworks Technology digital marketing agency is a dynamic, versatile, and full-service digital marketing agency that does not rely on 'smoke and mirrors' tactics to attract new clients. To attract new customers to the client website, SS Infoworks Technology relies on its search engine optimization (SEO) and marketing capabilities. We are not a one-dimensional organization. We don't restrict ourselves to a specific field of expertise. SS Infoworks Technology has the expertise and professionals to design and develop a custom website as well as provide a variety of digital marketing services to assist any size business in any industry. So many other agencies take a one-size-fits-all approach, offering you the same strategy and cookie-cutter website as your competitor down the street, and this can be detrimental to your business.",
+        "SS Infoworks Technology collaborates with you to develop customized internet marketing services and a strategy that is tailored to your specific business requirements. We become an extension of your team, a partner who understands your market and goals rather than a traditional advertising agency that executes strategies without understanding them or understanding their context. SS Infoworks Technology is different from many other agencies that focus on client relationships and results rather than glitz and glam to close sales and then fail to follow through on their promises."
+      ]
+    },
+    {
+      "id": "seo",
+      "title": {
+        "main": "Seo",
+        "span": "Services"
+      },
+      "image": "/img/services/seo_services.webp",
+      "intro": [
+        "SS Infoworks Technology has marked its dignified presence in Real estate, IT, BPO and SOFTWARE DEVELOPMENT services. It endeavors to maintain international standards and quality in the projects that it embarks on. Uncompromising aptitude, values, strategies and business insight form the foundation of its proficient service channels. The company understands the significance of time and money and provides optimized business solutions and processes which, would help you, focus on your core business areas with unambiguous cost advantages through manifold business solutions. SS Infoworks Technology is administered by a swiftly-flowing, efficient and affable management system. Its work culture is empowered with the genial atmosphere the team members provide and the resourceful ways with which every topic is addressed with due concern and the healthy treatment given to all with equal poise and respect."
+      ]
+    }
+  ],
+  "vision": [
+    {
+      "title": "Our Vision",
+      "description": "Empowering the digital future, one solution at a time",
+      "img": "/img/banner/vision.webp",
+      "paragraph": "At Ss Infoworks Technology, our vision is to become the top recognized regional leader in custom software innovation for forward-thinking businesses across industries. By investing in a growing team of makers, doers, and thinkers who live at the bleeding edge of technology, we plan to bring tomorrow's solutions to life today. By forging long-term collaborative partnerships with clients grounded-xl in transparency and trust, we will work tirelessly to understand needs, users and markets on a deeper level that informs tailored solutions perfectly aligned to diverse business goals. Leveraging the latest techniques like design sprints, rapid prototyping and agile development; our vision sets the stage to deliver 100+ software projects annually to the highest standards of excellence. We envision our work and contributions making a meaningful difference for partners while boosting prosperity and opportunity in our community. Our team welcomes growth opportunities that allow us to experiment, take risks, learn rapidly and continue raising the bar on innovation through technology."
+    },
+    {
+      "title": "Our Mission",
+      "description": "Driven by innovation, Focused on your success",
+      "img": "/img/banner/mission.webp",
+      "paragraph": "At Ss Infoworks Technology, our mission is to be the leading web and mobile app development resource in the Delhi for startups and businesses who want to unlock their potential through technology innovation. We leverage deep expertise with today's most cutting-edge platforms, frameworks, and design practices to craft custom solutions that solve real business challenges and deliver tangible ROI across web, native, and emerging tech. Our collaborative, transparent process centered around understanding needs first enables us to solve problems creatively and build exactly what our clients require for long-term success with users and markets. Backed by proven experience transforming ideas into elegant apps, websites and custom platforms loved by customers - our team of creative developers and expert designers deliver solutions that grow with our partners and set them apart digitally. Through a relentless focus on quality, communication and results - our mission is to forge partnerships that spark innovation and big thinking for businesses in the region through smart, useful software."
     }
   ]
 }

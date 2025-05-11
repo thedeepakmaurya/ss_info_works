@@ -16,7 +16,6 @@ const ContactDetail = () => {
       </div>
       <div className="flex gap-3">
         <CiMail className="shrink-0" size={24} />
-
         <div>
           <h4>Chat to us</h4>
           <p className="text-sm text-gray-600">

@@ -14,7 +14,6 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [openSubMenuIndex, setOpenSubMenuIndex] = useState(null);
 
-  // Function to toggle the visibility of the submenu
   const toggleSubMenu = (index) => {
     setOpenSubMenuIndex((prevIndex) => (prevIndex === index ? null : index));
   };
@@ -54,7 +53,6 @@ export default function Header() {
             </Link>
           </li>
 
-          {/* Submenu visibility */}
           {item.subMenu && (
             <ul
               onMouseLeave={() => {
@@ -91,7 +89,7 @@ export default function Header() {
         <Link href="/">
           <Image
             className="h-16 w-auto"
-            src="/img/logo.png"
+            src="/img/logo.webp"
             alt="logo"
             width={100}
             height={60}
