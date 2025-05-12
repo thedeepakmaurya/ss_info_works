@@ -29,7 +29,7 @@ const Testimonials = ({ testimonials }) => {
               <div className="px-1 py-1 lg:px-4" key={index}>
                 <div className="grid gap-4 rounded-xl bg-white px-2 py-4 shadow lg:grid-cols-3 lg:gap-0 lg:px-10 lg:py-5">
                   <Image
-                    className="h-80 w-full transform rounded-lg object-cover shadow lg:rotate-y-50"
+                    className="h-80 lg:w-fit rounded-lg object-cover shadow"
                     src={img}
                     alt="person"
                     width={500}

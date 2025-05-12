@@ -42,7 +42,7 @@ const HowStarted = ({ stat }) => {
         <div className="order-1 h-48 lg:order-2">
           <Image
             className="h-full rounded-xl object-cover shadow"
-            src="/img/banner/digital_innovation.webp"
+            src="/img/banner/technology.webp"
             alt="digital_innovation"
             width={1200}
             height={600}

@@ -1,5 +1,8 @@
 import data from "@/public/db/data.json";
 import Image from "next/image";
+import { CiLaptop } from "react-icons/ci";
+import { HiOutlineCheckBadge } from "react-icons/hi2";
+import SubServiceCard from "../blocks/SubServiceCard";
 
 const Services = ({ serviceId }) => {
   const { servicesbrief } = data;
@@ -11,7 +14,7 @@ const Services = ({ serviceId }) => {
     <main>
       <section className="container">
         {article?.map((brief, index) => {
-          const { image, intro, title, article, technologies } = brief;
+          const { image, intro, title, article, subServices } = brief;
           return (
             <article key={index}>
               <div className="grid gap-6 lg:grid-cols-2 lg:gap-10">
@@ -40,20 +43,11 @@ const Services = ({ serviceId }) => {
                     ))}
                   </div>
                 )}
-                {technologies?.length > 0 && (
-                  <div className="flex flex-wrap gap-4 lg:col-span-2">
-                    {technologies?.map((technology, i) => {
-                      return (
-                        <p
-                          key={i}
-                          className={`rounded-full bg-blue-200 px-4 py-1 text-sm font-medium`}
-                        >
-                          {technology}
-                        </p>
-                      );
-                    })}
-                  </div>
-                )}
+              </div>
+              <div className="mt-6 grid gap-10 lg:grid-cols-3">
+                {subServices?.map((details, index) => (
+                  <SubServiceCard key={index} {...details} />
+                ))}
               </div>
             </article>
           );

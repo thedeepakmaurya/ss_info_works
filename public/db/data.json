@@ -395,14 +395,85 @@
         "Contact us today to learn more. Make or modify the one you already have, or employ a SS Infoworks Technology professional if you only require assistance with one aspect of it. We have everything you need, from marketing professionals who can improve the performance of your website to graphic designers who can enhance the appearance of your business. We've found the ideal candidate for your position. Website design may become more accessible and easier as time goes on, but you will still require assistance and guidance.",
         "Web Design and Website Development Services are widely available to aid you in developing mobile and responsive websites and generate unique e-commerce and intranet experiences using the most up-to-date and proven web technologies. Consumers are increasingly basing their purchasing decisions on their online experience, thanks to the increasing number of people who browse a company or service provider's website before making a purchase. Especially true in a more competitive market. We are a fantastic web development company with over 11 years of experience. Our website designers and developers have gained significant experience in website design and development. We have a knowledgeable in-house staff that uses cutting-edge technology and platforms to support and complement your company's aims and goals. Our employees provide unique web development solutions, ranging from brand research to brainstorming, designing UX/UI design, and developing an overall marketing plan."
       ],
-      "technologies": [
-        "React Js",
-        "Next Js",
-        "Angular Js",
-        "Vue Js",
-        "Node Js",
-        "Express Js",
-        "Mongo DB"
+      "subServices": [
+        {
+          "title": "Static Websites",
+          "icon": "CiLaptop",
+          "description": "A static website is a straightforward, fixed-content site. It’s the best choice for businesses that don’t need frequent updates or complex features.",
+          "features": [
+            "HTML, CSS, and minimal JavaScript",
+            "Fast loading speed and lightweight",
+            "Mobile-responsive layout",
+            "Search Engine Optimization (SEO) enabled",
+            "Custom design options",
+            "Contact forms and basic inquiry forms"
+          ],
+          "bestfor": [
+            "Small businesses",
+            "Personal portfolios",
+            "Startups with limited content",
+            "Digital resumes or brochures"
+          ]
+        },
+        {
+          "title": "Dynamic Websites",
+          "icon": "CiLaptop",
+          "description": "Dynamic websites are interactive, database-driven, and allow real-time content updates through an admin panel or CMS (Content Management System).",
+          "features": [
+            "Built using PHP, Laravel, React, or CMS platforms like WordPress",
+            "Admin dashboard for easy content updates",
+            "User registration & login system",
+            "Integration with APIs, forms, and third-party tools",
+            "Blog and article management",
+            "Scalable architecture for future expansion"
+          ],
+          "bestfor": [
+            "News websites",
+            "Blogs & media platforms",
+            "Educational institutes",
+            "Government & organizational sites"
+          ]
+        },
+        {
+          "title": "E-Commerce Websites",
+          "icon": "CiShoppingCart",
+          "description": "A single-vendor e-commerce website allows one business to sell products or services online with full control of inventory, customers, and orders.",
+          "features": [
+            "Product catalog with filters & categories",
+            "Secure payment gateway (Razorpay, PayPal, Stripe, etc.)",
+            "Inventory & stock management",
+            "Order tracking & customer dashboard",
+            "Coupons, discounts, and promo tools",
+            "Analytics and reports dashboard",
+            "SSL security & data encryption"
+          ],
+          "bestfor": [
+            "Retail businesses",
+            "Niche online stores (clothing, electronics, groceries)",
+            "Service providers offering bookings/sales"
+          ]
+        },
+        {
+          "title": "Multi-Vendor E-Commerce Websites",
+          "icon": "CiShoppingCart",
+          "description": "A multi-vendor e-commerce platform allows multiple sellers to register and sell products on a shared marketplace, like Amazon, Flipkart, or Etsy.",
+          "features": [
+            "Vendor registration & management",
+            "Separate vendor dashboards",
+            "Commission management system",
+            "Admin approval for vendors/products",
+            "Multi-vendor product catalog",
+            "Advanced filters and search functionality",
+            "Payment splitting and withdrawal systems",
+            "Rating & review system for vendors/products",
+            "Real-time analytics for both admin and vendors"
+          ],
+          "bestfor": [
+            "Entrepreneurs launching online marketplaces",
+            "Large-scale B2B/B2C platforms",
+            "Aggregator business models (like restaurants, fashion, electronics)"
+          ]
+        }
       ]
     },
     {
@@ -421,11 +492,62 @@
         "As previously stated, the enormous demand for and popularity of handsets and smartphones today has resulted in the rapid evolution of technology, making it imperative for businesses to provide their customers with a smoother operating environment as well as a significantly improved mobile experience. According to the corporation, the most significant feature of a web application or mobile application that brands anticipate for their users is that it must be interoperable with both Android smartphones and iOS devices.",
         "The fact that the developer and their vision of the mobile application should match the division of the brand on which they are working on the mobile application is what it all boils down to, whether it is about mobile application development for an Android smartphone or an iPhone with iOS as their primary software, it all comes down to one thing. In addition, the creation of hybrid applications is being pursued."
       ],
-      "technologies": [
-        "Flutter",
-        "React Native",
-        "Kotlin",
-        "Swift"
+      "subServices": [
+        {
+          "title": "Android App Development",
+          "icon": "CiMobile1",
+          "description": "Build powerful apps for the world’s most used mobile platform. We create secure, scalable, and feature-rich Android apps tailored for smartphones, tablets, and Android-based devices.",
+          "features": [
+            "Custom Android app design & development",
+            "Google Play Store deployment",
+            "Integration with REST APIs, databases, and third-party services",
+            "Native features: camera, GPS, push notifications, etc.",
+            "Android app testing and optimization",
+            "Ongoing support and updates"
+          ],
+          "builtUsing": [
+            "Java",
+            "Kotlin",
+            "Android Studio",
+            "Firebase",
+            "Room DB"
+          ],
+          "bestfor": [
+            "Retail",
+            "Healthcare",
+            "Education",
+            "Logistics",
+            "Food delivery",
+            "Fintech",
+            "More Android-based sectors"
+          ]
+        },
+        {
+          "title": "iOS App Development",
+          "icon": "CiMobile3",
+          "description": "Launch sleek and secure apps for Apple users. We craft seamless, elegant, and high-performance iOS applications that align with Apple’s design and functionality standards.",
+          "features": [
+            "Custom iPhone and iPad app development",
+            "App Store deployment",
+            "Integration with iCloud, Apple Pay, Siri, etc.",
+            "Swift-based coding for speed and reliability",
+            "Advanced animations and UI/UX optimization"
+          ],
+          "builtUsing": [
+            "Swift",
+            "Objective-C",
+            "Xcode",
+            "Core Data",
+            "UIKit",
+            "SwiftUI"
+          ],
+          "bestfor": [
+            "Premium brands",
+            "Startups targeting iOS users",
+            "Business apps",
+            "Lifestyle and fitness platforms"
+          ]
+        }
       ]
     },
     {
@@ -455,12 +577,6 @@
       "image": "/img/services/seo_services.webp",
       "intro": [
         "SS Infoworks Technology has marked its dignified presence in Real estate, IT, BPO and SOFTWARE DEVELOPMENT services. It endeavors to maintain international standards and quality in the projects that it embarks on. Uncompromising aptitude, values, strategies and business insight form the foundation of its proficient service channels. The company understands the significance of time and money and provides optimized business solutions and processes which, would help you, focus on your core business areas with unambiguous cost advantages through manifold business solutions. SS Infoworks Technology is administered by a swiftly-flowing, efficient and affable management system. Its work culture is empowered with the genial atmosphere the team members provide and the resourceful ways with which every topic is addressed with due concern and the healthy treatment given to all with equal poise and respect."
-      ],
-      "technologies": [
-        "Google Analytics",
-        "SEMrush",
-        "Ahrefs",
-        "Moz"
       ]
     }
   ],
