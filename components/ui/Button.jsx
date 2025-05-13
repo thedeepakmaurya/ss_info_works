@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Button({ url, style, text, onClick }) {
+export default function Button({ url,  text, style, onClick }) {
   return (
     <Link href={url}>
       <button
