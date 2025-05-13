@@ -45,7 +45,7 @@ export default function Header() {
           >
             <Link
               href={item.route}
-              className={`flex items-center capitalize hover:border-b hover:border-blue-400 ${
+              className={`flex items-center  font-semibold capitalize hover:border-b hover:border-blue-400 ${
                 isActive ? "border-b border-orange-400" : ""
               }`}
             >
@@ -66,7 +66,7 @@ export default function Header() {
                 <li key={subIndex}>
                   <Link
                     href={subItem.route}
-                    className="mb-2 block text-nowrap capitalize hover:border-b hover:border-blue-400"
+                    className="mb-2 block font-semibold text-nowrap capitalize hover:border-b hover:border-blue-400"
                     onClick={() => {
                       setIsMenuOpen(false);
                       setOpenSubMenuIndex(null);

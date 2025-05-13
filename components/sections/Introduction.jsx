@@ -13,7 +13,7 @@ const Introduction = () => {
         <div className="h-80 w-full lg:h-[460px]">
           <Image
             className="h-full w-full rounded-xl object-cover shadow"
-            src="/img/banner/web _development.webp"
+            src="/img/banner/technology.webp"
             alt="works"
             width={600}
             height={1200}

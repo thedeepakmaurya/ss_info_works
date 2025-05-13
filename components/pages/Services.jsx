@@ -1,7 +1,5 @@
 import data from "@/public/db/data.json";
 import Image from "next/image";
-import { CiLaptop } from "react-icons/ci";
-import { HiOutlineCheckBadge } from "react-icons/hi2";
 import SubServiceCard from "../blocks/SubServiceCard";
 
 const Services = ({ serviceId }) => {
