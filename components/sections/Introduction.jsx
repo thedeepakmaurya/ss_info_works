@@ -1,8 +1,10 @@
 import Image from "next/image";
 import Button from "../ui/Button";
 import Heading from "../ui/Heading";
+import data from "@/public/db/data.json";
 
 const Introduction = () => {
+  const { aboutinfo } = data;
   return (
     <section className="container">
       <Heading
@@ -21,33 +23,9 @@ const Introduction = () => {
           />
         </div>
         <div className="space-y-4">
-          <p>
-            “ <strong>At Ss Infoworks Technology</strong>, we are driven by a
-            passion for technology and innovation. Founded with the vision to
-            deliver smart, scalable, and future-ready digital solutions, we
-            specialize in providing end-to-end IT services that empower
-            businesses to grow, transform, and thrive in a digital-first world.
-          </p>
-          <p>
-            With a strong focus on quality, performance, and customer
-            satisfaction, we bring together a talented team of developers,
-            designers, and strategists who are committed to pushing boundaries
-            and delivering impactful solutions. From custom Website Development
-            software development, mobile and web applications, Social Media
-            Promotions, SEO and IT consulting—our offerings are tailored to meet
-            the unique needs of every client.
-          </p>
-          <p>
-            What sets us apart is our collaborative approach, transparent
-            communication, and unwavering commitment to excellence. Whether
-            you're a startup or an enterprise, Ss Infoworks Technology is your
-            trusted technology partner, helping you stay ahead in a rapidly
-            evolving digital landscape.
-          </p>
-          <p>
-            <strong>Innovation. Integrity. Impact</strong>. That’s the Ss
-            Infoworks promise.”
-          </p>
+          {aboutinfo.map((info, index) => (
+            <p key={index}>{info}</p>
+          ))}
           <Button text="Learn more" url="/about" style="" />
         </div>
       </div>

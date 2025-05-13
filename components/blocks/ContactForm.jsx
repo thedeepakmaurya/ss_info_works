@@ -65,7 +65,7 @@ const ContactForm = () => {
         name="phone"
         type="number"
         onChange={handleChange}
-        value={formData.type}
+        value={formData.phone}
       />
       <Select
         name="service"
