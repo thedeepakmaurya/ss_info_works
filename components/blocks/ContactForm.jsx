@@ -21,6 +21,26 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    const { name, email, phone, service, message } = formData;
+
+    if (!name || !email || !phone || !service || !message) {
+      alert("⚠️ Please fill in all fields.");
+      return;
+    }
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const phoneRegex = /^\+?[0-9\s\-]{7,15}$/;
+
+    if (!emailRegex.test(email)) {
+      alert("📧 Please enter a valid email address.");
+      return;
+    }
+
+    if (!phoneRegex.test(phone)) {
+      alert("📞 Please enter a valid phone number.");
+      return;
+    }
+
     try {
       const res = await fetch("/api/mail", {
         method: "POST",

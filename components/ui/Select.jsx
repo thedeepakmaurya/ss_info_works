@@ -13,6 +13,7 @@ const Select = ({ name, options, onChange, value }) => {
         id={name}
         onChange={onChange}
         value={value}
+        required
       >
         <option value="" disabled>
           Select {name}
