@@ -12,7 +12,7 @@ const Introduction = () => {
         description={"Application & Wesite Development Company"}
       />
       <div className="grid gap-6 lg:grid-cols-2 lg:gap-10">
-        <div className="h-80 w-full lg:h-[460px]">
+        <div className="h-80 w-full object-cover lg:h-full">
           <Image
             className="h-full w-full rounded-xl object-cover shadow"
             src="/img/banner/technology.webp"

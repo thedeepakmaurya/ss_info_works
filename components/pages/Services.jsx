@@ -42,7 +42,7 @@ const Services = ({ serviceId }) => {
                   </div>
                 )}
               </div>
-              <div className="mt-6 grid gap-10 lg:grid-cols-3">
+              <div className="mt-6 grid gap-10 lg:grid-cols-2">
                 {subServices?.map((details, index) => (
                   <SubServiceCard key={index} {...details} />
                 ))}

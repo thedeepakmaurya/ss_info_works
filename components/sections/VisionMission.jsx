@@ -11,10 +11,10 @@ const VisionMission = () => {
         return (
           <div key={index}>
             <Heading title={title} description={description} />
-            <div className="grid gap-6 lg:grid-cols-2 lg:gap-10">
-              <div>
+            <div className="grid gap-6 lg:grid-cols-2 lg:gap-10 items-stretch">
+              <div className="lg:h-full object-cover h-80">
                 <Image
-                  className="h-80 rounded-xl object-cover shadow"
+                  className="h-full w-full rounded-xl object-cover shadow"
                   src={img}
                   alt="vision"
                   width={600}

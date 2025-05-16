@@ -9,7 +9,7 @@ const HowStarted = ({ stat }) => {
     <section className="container">
       <Heading
         title={"How it started"}
-        description={"Empowering the World Through Digital Innovation"}
+        description={"Empowering the world through innovation."}
       />
       <div className="grid gap-6 lg:grid-cols-2 lg:gap-10">
         <div className="order-2 row-span-2 space-y-4 lg:order-1">

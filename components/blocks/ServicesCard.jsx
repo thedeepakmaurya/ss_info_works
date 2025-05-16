@@ -1,6 +1,6 @@
-const ServicesCard = ({title, highlights, description}) => {
+const ServicesCard = ({ title, highlights, description }) => {
   return (
-    <div  className="rounded-xl p-2 shadow">
+    <div className="rounded-xl p-2 shadow">
       <div
         className={`${title === "Customize Software Development" ? "bg-yellow-100" : title === "MLM Software Development" ? "bg-green-100" : title === "Web Development / Design" ? "bg-red-100" : title === "Android & IOS Application" ? "bg-blue-100" : title === "SEO/SMO & Marketing" ? "bg-cyan-100" : "bg-fuchsia-100"} h-full space-y-2 rounded-xl p-6 shadow`}
       >
