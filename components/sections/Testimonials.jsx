@@ -7,6 +7,12 @@ import Slider from "react-slick";
 import { useRef } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import Heading from "../ui/Heading";
+import { motion } from "framer-motion";
+
+const fadeInUp = {
+  hidden: { opacity: 0, y: 40 },
+  visible: { opacity: 1, y: 0 },
+};
 
 const Testimonials = ({ testimonials }) => {
   const sliderRef = useRef(null);
@@ -35,7 +41,15 @@ const Testimonials = ({ testimonials }) => {
                     width={500}
                     height={500}
                   />
-                  <div className="space-y-4 lg:col-span-2">
+
+                  <motion.div
+                    className="space-y-4 lg:col-span-2"
+                    variants={fadeInUp}
+                    initial="hidden"
+                    animate="visible"
+                    transition={{ duration: 0.6, delay: 0.2 + index * 0.2 }}
+                    key={index}
+                  >
                     <div className="hidden justify-end lg:flex">
                       <SiComma className="text-5xl text-gray-200 lg:text-8xl" />
                     </div>
@@ -48,18 +62,20 @@ const Testimonials = ({ testimonials }) => {
                     <p className="text-sm font-medium text-gray-600 italic">
                       {designation}
                     </p>
-                  </div>
+                  </motion.div>
                 </div>
               </div>
             ),
           )}
         </Slider>
+
         <button
           onClick={() => sliderRef.current?.slickPrev()}
           className="absolute -bottom-14 left-[35%] h-fit cursor-pointer rounded-full bg-gray-200 p-2 text-gray-400 opacity-50 hover:opacity-90 lg:top-[50%] lg:-left-10"
         >
           <FaArrowLeft size={24} />
         </button>
+
         <button
           onClick={() => sliderRef.current?.slickNext()}
           className="absolute right-[35%] -bottom-14 h-fit cursor-pointer rounded-full bg-gray-200 p-2 text-gray-400 opacity-50 hover:opacity-90 lg:top-[50%] lg:-right-10"
