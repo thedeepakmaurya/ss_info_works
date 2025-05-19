@@ -18,7 +18,7 @@ const PriceCard = ({ title, description, price, features, icon }) => {
   const Icon = icons[icon];
 
   return (
-    <div className="group relative overflow-hidden rounded-xl bg-orange-100 shadow transition-all duration-300 ease-in-out hover:bg-blue-100">
+    <div className="group relative overflow-hidden rounded-xl bg-orange-100 shadow transition-all duration-300 h-full ease-in-out hover:bg-blue-100">
       <div className="absolute top-0 right-0 flex h-18 w-18 items-center justify-center rounded-tr-xl rounded-bl-full bg-orange-400 group-hover:bg-blue-400">
         {Icon && <Icon size="36" color="white" />}
       </div>

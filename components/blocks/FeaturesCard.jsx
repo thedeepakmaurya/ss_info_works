@@ -21,7 +21,7 @@ const FeaturesCard = ({ icon, index, title, description }) => {
 
   return (
     <div
-      className={`flex gap-6 rounded-xl bg-blue-50 p-4 shadow ${index === 0 ? "bg-yellow-50" : index === 1 ? "bg-purple-50" : index === 2 ? "bg-red-50" : index === 3 ? "bg-green-50" : index === 4 ? "bg-blue-50" : "bg-orange-50"}`}
+      className={`flex gap-6 h-full rounded-xl bg-blue-50 p-4 shadow ${index === 0 ? "bg-yellow-50" : index === 1 ? "bg-purple-50" : index === 2 ? "bg-red-50" : index === 3 ? "bg-green-50" : index === 4 ? "bg-blue-50" : "bg-orange-50"}`}
     >
       <div>
         <Icon

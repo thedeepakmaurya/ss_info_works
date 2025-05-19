@@ -11,7 +11,7 @@ const StatCard = ({ value, title, icon }) => {
   const Icon = icons[icon];
 
   return (
-    <div className="relative overflow-hidden rounded-xl bg-blue-100 p-6 shadow">
+    <div className="relative overflow-hidden rounded-xl bg-blue-100 p-4 lg:p-6 shadow">
       <div>
         <h3 className="text-2xl font-bold">{value}</h3>
         <p className="capitalize">{title}</p>

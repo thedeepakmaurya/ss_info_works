@@ -1,10 +1,29 @@
+"use client";
+
 import Image from "next/image";
 import Heading from "../ui/Heading";
 import StatCard from "../blocks/StatCard";
 import data from "@/public/db/data.json";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+
+const fadeInUp = {
+  hidden: { opacity: 0, y: 30 },
+  visible: { opacity: 1, y: 0 },
+};
 
 const HowStarted = ({ stat }) => {
   const { aboutinfo } = data;
+
+  const [textRef, textInView] = useInView({
+    triggerOnce: true,
+    threshold: 0.2,
+  });
+  const [statRef, statInView] = useInView({
+    triggerOnce: true,
+    threshold: 0.2,
+  });
+
   return (
     <section className="container">
       <Heading
@@ -12,11 +31,19 @@ const HowStarted = ({ stat }) => {
         description={"Empowering the world through innovation."}
       />
       <div className="grid gap-6 lg:grid-cols-2 lg:gap-10">
-        <div className="order-2 row-span-2 space-y-4 lg:order-1">
+        <motion.div
+          ref={textRef}
+          variants={fadeInUp}
+          initial="hidden"
+          animate={textInView ? "visible" : "hidden"}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          className="order-2 row-span-2 space-y-4 lg:order-1"
+        >
           {aboutinfo.map((info, index) => (
             <p key={index}>{info}</p>
           ))}
-        </div>
+        </motion.div>
+
         <div className="order-1 h-48 lg:order-2">
           <Image
             className="h-full rounded-xl object-cover shadow"
@@ -26,11 +53,19 @@ const HowStarted = ({ stat }) => {
             height={600}
           />
         </div>
-        <div className="order-3 grid grid-cols-2 gap-4 lg:order-3">
+
+        <motion.div
+          ref={statRef}
+          variants={fadeInUp}
+          initial="hidden"
+          animate={statInView ? "visible" : "hidden"}
+          transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
+          className="order-3 grid grid-cols-2 gap-4 lg:order-3"
+        >
           {stat?.map((item, index) => (
             <StatCard key={index} {...item} />
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );

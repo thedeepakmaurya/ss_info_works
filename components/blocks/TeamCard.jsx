@@ -1,10 +1,32 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { RiLinkedinLine } from "react-icons/ri";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
-const TeamCard = ({ name, position, image, linkedin }) => {
+const fadeInUp = {
+  hidden: { opacity: 0, y: 40 },
+  visible: (customDelay) => ({
+    opacity: 1,
+    y: 0,
+    transition: { delay: customDelay, duration: 0.6, ease: "easeOut" },
+  }),
+};
+
+const TeamCard = ({ name, position, image, linkedin, index }) => {
+  const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.2 });
+
   return (
-    <div className="relative flex h-96 justify-center lg:h-80">
+    <motion.div
+      ref={ref}
+      custom={index * 0.2}
+      variants={fadeInUp}
+      initial="hidden"
+      animate={inView ? "visible" : "hidden"}
+      className="relative flex h-96 justify-center lg:h-80"
+    >
       <Image
         className="h-full rounded-xl object-cover shadow"
         src={image}
@@ -24,7 +46,7 @@ const TeamCard = ({ name, position, image, linkedin }) => {
           />
         </Link>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
